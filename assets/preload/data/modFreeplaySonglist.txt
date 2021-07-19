@@ -16,5 +16,5 @@ Sunshine:bob:12
 Withered:angrybob:12
 Run:hellbob:12
 Ron:ron:13
-Trouble:gloopy-bob:13
+Trouble:gloop-bob:13
 Onslaught:glitched-bob:13
