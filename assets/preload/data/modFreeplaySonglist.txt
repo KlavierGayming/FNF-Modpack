@@ -1,0 +1,14 @@
+Wocky:kapi:7
+Beathoven:kapi:7
+Hairball:kapi-mad:7
+Nyaw:kapi:7
+Headache:garcello:8
+Nerves:garcellotired:8
+Release:garcellodead:8
+Sussus-Moogus:impostor:9
+Sabotage:impostor:9
+Meltdown:impostor:9
+Good Enough:annie:10
+Lover:annie:annie:10
+Tug Of War:annie:10
+Animal:annie-drunk:11

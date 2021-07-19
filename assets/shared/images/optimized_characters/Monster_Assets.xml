@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Monster funies.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Monster Right note0000" x="0" y="0" width="381" height="674"/>
+	<SubTexture name="Monster Right note0001" x="381" y="0" width="381" height="674"/>
+	<SubTexture name="Monster left note0000" x="762" y="0" width="475" height="673"/>
+	<SubTexture name="Monster left note0001" x="1237" y="0" width="475" height="673"/>
+	<SubTexture name="monster down0000" x="1712" y="0" width="440" height="634"/>
+	<SubTexture name="monster down0001" x="0" y="674" width="440" height="634"/>
+	<SubTexture name="monster idle0000" x="440" y="674" width="484" height="673"/>
+	<SubTexture name="monster up note0000" x="924" y="674" width="418" height="720"/>
+	<SubTexture name="monster up note0001" x="1342" y="674" width="418" height="720"/>
+</TextureAtlas>

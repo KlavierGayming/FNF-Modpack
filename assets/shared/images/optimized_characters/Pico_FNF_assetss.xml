@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="peeco.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pico Down Note0000" x="0" y="0" width="736" height="392"/>
+	<SubTexture name="Pico Down Note0001" x="0" y="0" width="736" height="392"/>
+	<SubTexture name="Pico Down Note0002" x="736" y="0" width="736" height="392"/>
+	<SubTexture name="Pico Down Note0003" x="736" y="0" width="736" height="392"/>
+	<SubTexture name="Pico Idle Dance0000" x="0" y="392" width="443" height="475"/>
+	<SubTexture name="Pico Idle Dance0001" x="0" y="392" width="443" height="475"/>
+	<SubTexture name="Pico NOTE LEFT0000" x="443" y="392" width="455" height="464"/>
+	<SubTexture name="Pico NOTE LEFT0001" x="443" y="392" width="455" height="464"/>
+	<SubTexture name="Pico NOTE LEFT0002" x="898" y="392" width="455" height="464"/>
+	<SubTexture name="Pico NOTE LEFT0003" x="898" y="392" width="455" height="464"/>
+	<SubTexture name="Pico Note Right0000" x="0" y="867" width="459" height="476"/>
+	<SubTexture name="Pico Note Right0001" x="0" y="867" width="459" height="476"/>
+	<SubTexture name="Pico Note Right0002" x="459" y="867" width="459" height="476"/>
+	<SubTexture name="Pico Note Right0003" x="459" y="867" width="459" height="476"/>
+	<SubTexture name="pico Up note0000" x="918" y="867" width="433" height="495"/>
+	<SubTexture name="pico Up note0001" x="918" y="867" width="433" height="495"/>
+	<SubTexture name="pico Up note0002" x="0" y="1362" width="433" height="495"/>
+	<SubTexture name="pico Up note0003" x="0" y="1362" width="433" height="495"/>
+</TextureAtlas>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dad_assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dad Sing Note DOWN0000" x="0" y="0" width="470" height="735"/>
+	<SubTexture name="Dad Sing Note DOWN0001" x="0" y="0" width="470" height="735"/>
+	<SubTexture name="Dad Sing Note DOWN0002" x="470" y="0" width="470" height="735"/>
+	<SubTexture name="Dad Sing Note DOWN0003" x="470" y="0" width="470" height="735"/>
+	<SubTexture name="Dad Sing Note LEFT0000" x="940" y="0" width="465" height="793"/>
+	<SubTexture name="Dad Sing Note LEFT0001" x="940" y="0" width="465" height="793"/>
+	<SubTexture name="Dad Sing Note LEFT0002" x="1405" y="0" width="465" height="793"/>
+	<SubTexture name="Dad Sing Note LEFT0003" x="1405" y="0" width="465" height="793"/>
+	<SubTexture name="Dad Sing note UP0000" x="0" y="793" width="409" height="818"/>
+	<SubTexture name="Dad Sing note UP0001" x="0" y="793" width="409" height="818"/>
+	<SubTexture name="Dad Sing note UP0002" x="409" y="793" width="409" height="818"/>
+	<SubTexture name="Dad Sing note UP0003" x="409" y="793" width="409" height="818"/>
+	<SubTexture name="Dad idle dance0000" x="818" y="793" width="419" height="767"/>
+	<SubTexture name="Dad Sing Note RIGHT0000" x="1237" y="793" width="383" height="777"/>
+	<SubTexture name="Dad Sing Note RIGHT0001" x="1237" y="793" width="383" height="777"/>
+	<SubTexture name="Dad Sing Note RIGHT0002" x="1620" y="793" width="383" height="777"/>
+	<SubTexture name="Dad Sing Note RIGHT0003" x="1620" y="793" width="383" height="777"/>
+</TextureAtlas>
