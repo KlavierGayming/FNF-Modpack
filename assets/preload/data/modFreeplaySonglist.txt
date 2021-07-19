@@ -12,3 +12,9 @@ Good Enough:annie:10
 Lover:annie:annie:10
 Tug Of War:annie:10
 Animal:annie-drunk:11
+Sunshine:bob:12
+Withered:angrybob:12
+Run:hellbob:12
+Ron:ron:13
+Trouble:gloopy-bob:13
+Onslaught:glitched-bob:13
