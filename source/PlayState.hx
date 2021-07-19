@@ -1215,6 +1215,151 @@ class PlayState extends MusicBeatState
 											evilSnow.antialiasing = true;
 										add(evilSnow);
 								}
+								case 'onslaught' :
+									{
+										defaultCamZoom = 0.9;
+										curStage = 'slaught';
+										var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('bob/scary_sky'));
+										bg.updateHitbox();
+										bg.active = false;
+										bg.antialiasing = true;
+										bg.scrollFactor.set(0.1, 0.1);
+										add(bg);
+										/*var glitchEffect = new FlxGlitchEffect(8,10,0.4,FlxGlitchDirection.HORIZONTAL);
+										var glitchSprite = new FlxEffectSprite(bg, [glitchEffect]);
+										add(glitchSprite);*/
+										
+										var ground:FlxSprite = new FlxSprite(-537, -158).loadGraphic(Paths.image('bob/GlitchedGround'));
+										ground.updateHitbox();
+										ground.active = false;
+										ground.antialiasing = true;
+										add(ground);
+										
+									}
+									case 'trouble' :
+										{
+											defaultCamZoom = 0.9;
+											curStage = 'trouble';
+											var bg:FlxSprite = new FlxSprite(-100,10).loadGraphic(Paths.image('bob/nothappy_sky'));
+											bg.updateHitbox();
+											bg.scale.x = 1.2;
+											bg.scale.y = 1.2;
+											bg.active = false;
+											bg.antialiasing = true;
+											bg.scrollFactor.set(0.1, 0.1);
+											add(bg);
+											/*var glitchEffect = new FlxGlitchEffect(8,10,0.4,FlxGlitchDirection.HORIZONTAL);
+											var glitchSprite = new FlxEffectSprite(bg, [glitchEffect]);
+											add(glitchSprite);*/
+											
+											var ground:FlxSprite = new FlxSprite(-537, -250).loadGraphic(Paths.image('bob/nothappy_ground'));
+											ground.updateHitbox();
+											ground.active = false;
+											ground.antialiasing = true;
+											add(ground);
+						
+											var deadron:FlxSprite = new FlxSprite(-700, 600).loadGraphic(Paths.image('bob/GoodHeDied'));
+											deadron.updateHitbox();
+											deadron.active = false;
+											deadron.scale.x = 0.8;
+											deadron.scale.y = 0.8;
+											deadron.antialiasing = true;
+											add(deadron);
+											
+										}
+									case 'ron' | 'little-man':
+										{
+										defaultCamZoom = 0.9;
+										curStage = 'ron';
+										var bg:FlxSprite = new FlxSprite(-100,10).loadGraphic(Paths.image('bob/happyRon_sky'));
+										bg.updateHitbox();
+										bg.scale.x = 1.2;
+										bg.scale.y = 1.2;
+										bg.active = false;
+										bg.antialiasing = true;
+										bg.scrollFactor.set(0.1, 0.1);
+										add(bg);
+										/*var glitchEffect = new FlxGlitchEffect(8,10,0.4,FlxGlitchDirection.HORIZONTAL);
+										var glitchSprite = new FlxEffectSprite(bg, [glitchEffect]);
+										add(glitchSprite);*/
+										
+										var ground:FlxSprite = new FlxSprite(-537, -250).loadGraphic(Paths.image('bob/happyRon_ground'));
+										ground.updateHitbox();
+										ground.active = false;
+										ground.antialiasing = true;
+										add(ground);
+											
+										}
+										case 'sunshine' :
+											{
+												var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('bob/happysky'));
+												bg.updateHitbox();
+												bg.active = false;
+												bg.antialiasing = true;
+												bg.scrollFactor.set(0.1, 0.1);
+												add(bg);
+												
+												var ground:FlxSprite = new FlxSprite(-537, -158).loadGraphic(Paths.image('bob/happyground'));
+												ground.updateHitbox();
+												ground.active = false;
+												ground.antialiasing = true;
+												add(ground);
+											}
+											
+											case 'withered' :
+											{
+												var bg:FlxSprite = new FlxSprite( -100).loadGraphic(Paths.image('bob/slightlyannyoed_sky'));
+												bg.updateHitbox();
+												bg.active = false;
+												bg.antialiasing = true;
+												bg.scrollFactor.set(0.1, 0.1);
+												add(bg);
+												
+												var ground:FlxSprite = new FlxSprite(-537, -158).loadGraphic(Paths.image('bob/slightlyannyoed_ground'));
+												ground.updateHitbox();
+												ground.active = false;
+												ground.antialiasing = true;
+												add(ground);
+											}
+											
+											//phlox is a little baby
+											case 'run' | 'run-remix-because-its-cool' :
+											{
+												curStage = 'hellstage';
+													var bg:FlxSprite = new FlxSprite( -100).loadGraphic(Paths.image('bob/hell'));
+												bg.updateHitbox();
+												bg.active = false;
+												bg.antialiasing = true;
+												bg.scrollFactor.set(0.1, 0.1);
+												add(bg);
+												
+												var thingidk:FlxSprite = new FlxSprite( -271).loadGraphic(Paths.image('bob/middlething'));
+												thingidk.updateHitbox();
+												thingidk.active = false;
+												thingidk.antialiasing = true;
+												thingidk.scrollFactor.set(0.3, 0.3);
+												add(thingidk);
+												
+												var dead:FlxSprite = new FlxSprite( -60, 50).loadGraphic(Paths.image('bob/theydead'));
+												dead.updateHitbox();
+												dead.active = false;
+												dead.antialiasing = true;
+												dead.scrollFactor.set(0.8, 0.8);
+												add(dead);
+								
+												var ground:FlxSprite = new FlxSprite(-537, -158).loadGraphic(Paths.image('bob/ground'));
+												ground.updateHitbox();
+												ground.active = false;
+												ground.antialiasing = true;
+												add(ground);
+												
+												bobmadshake = new FlxSprite( -198, -118).loadGraphic(Paths.image('bob/bobscreen'));
+												bobmadshake.scrollFactor.set(0, 0);
+												bobmadshake.visible = false;
+												
+												bobsound = new FlxSound().loadEmbedded(Paths.sound('bobscreen'));
+												
+											}
 				}
 			}
 		}
