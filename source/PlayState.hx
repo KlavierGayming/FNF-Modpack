@@ -1414,6 +1414,31 @@ class PlayState extends MusicBeatState
 				dad.y += 300;
 			case 'parents-christmas':
 				dad.x -= 500;
+			case 'bob':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'gloop-bob':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'angrybob':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'hellbob':
+				camPos.x += 600;
+				dad.y += 350;
+			case 'glitched-bob':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'ron':
+				camPos.x -= 27;
+				camPos.y += 268;
+				dad.y += 268;
+				dad.x -= 27;
+			case 'little-man':
+				camPos.x -= 124;
+				camPos.y += 644;
+				dad.x += 124;
+				dad.y += 644;
 			case 'senpai':
 				dad.x += 150;
 				dad.y += 360;
