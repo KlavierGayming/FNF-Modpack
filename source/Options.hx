@@ -633,5 +633,5 @@ class BotPlay extends Option
 	}
 	
 	private override function updateDisplay():String
-		return "BotPlay " + (FlxG.save.data.botplay ? "on" : "off");
+		return "HUDless " + (FlxG.save.data.botplay ? "on" : "off");
 }

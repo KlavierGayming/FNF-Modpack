@@ -18,3 +18,7 @@ Run:hellbob:12
 Ron:ron:13
 Trouble:gloop-bob:13
 Onslaught:glitched-bob:13
+Megalo Strike Back:chara:14
+Jump-in:bob-from-the-other-mod:15
+Swing:bosip:15
+Split:amor:15

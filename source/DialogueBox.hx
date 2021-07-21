@@ -178,18 +178,7 @@ class DialogueBox extends FlxSpriteGroup
 			portraitLeft.visible = false;
 			}
 	
-			if(PlayState.SONG.song.toLowerCase()=='senpai' || PlayState.SONG.song.toLowerCase()=='roses' )
-			{
-			portraitRight = new FlxSprite(0, 40);
-			portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
-			portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
-			portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.9));
-			portraitRight.updateHitbox();
-			portraitRight.scrollFactor.set();
-			add(portraitRight);
-			portraitRight.visible = false;
-			}
-			else if (PlayState.SONG.song.toLowerCase()=='headache' || PlayState.SONG.song.toLowerCase()=='nerves' || PlayState.SONG.song.toLowerCase()=='release' || PlayState.SONG.song.toLowerCase()=='fading')
+			if (PlayState.SONG.song.toLowerCase()=='headache' || PlayState.SONG.song.toLowerCase()=='nerves' || PlayState.SONG.song.toLowerCase()=='release' || PlayState.SONG.song.toLowerCase()=='fading')
 			{
 			portraitRight = new FlxSprite(770, 200);
 			portraitRight.frames = Paths.getSparrowAtlas('mods/gar/bf_norm','shared');
@@ -203,6 +192,7 @@ class DialogueBox extends FlxSpriteGroup
 			}
 		
 		box.animation.play('normalOpen');
+
 		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
 		box.updateHitbox();
 		add(box);
@@ -346,7 +336,7 @@ class DialogueBox extends FlxSpriteGroup
 				if (!portraitRight.visible)
 				{
 					portraitRight.visible = true;
-					portraitRight.animation.play('enter');
+					portraitRight.animation.play('enterNormal');
 				}
 		}
 	}

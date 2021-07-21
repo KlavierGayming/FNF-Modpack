@@ -56,6 +56,11 @@ class HealthIcon extends FlxSprite
 		animation.add('ron', [46, 47], 0, false, isPlayer);
 		animation.add('gloop-bob', [48, 49], 0, false, isPlayer);
 		animation.add('glitched-bob', [50, 51], 0, false, isPlayer);
+		animation.add('chara', [54, 55], 0, false, isPlayer);
+		animation.add('bob-from-the-other-mod', [56, 57], 0, false, isPlayer);
+		animation.add('bosip', [58, 59], 0, false, isPlayer);
+		animation.add('amor', [60, 61], 0, false, isPlayer);
+		animation.add('bf-night', [0, 1], 0, false, isPlayer);
 
 		animation.play(char);
 

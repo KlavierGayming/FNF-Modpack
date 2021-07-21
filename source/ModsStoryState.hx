@@ -27,24 +27,36 @@ class ModsStoryState extends MusicBeatState
 		['Wocky','Beathoven','Hairball','Nyaw'],
 		['Headache','Nerves','Release','Fading'],
 		['Sussus-Moogus','Sabotage','Meltdown'],
-		['Good Enough', 'Lover', 'Tug Of War']
+		['Good Enough', 'Lover', 'Tug Of War'],
+		['Sunshine', 'Withered', 'Run'],
+		['Ron', 'Trouble', 'Onslaught'],
+		['Megalo Strike Back'],
+		['Jump-in', 'Swing', 'Split']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['','bf','gf'],
 		['','bf','gf'],
 		['','bf','gf'],
-		['', 'bf', 'gf']
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['','bf','gf']
 	];
 
 	var weekNames:Array<String> = [
 		"Arcade Showdown by Paperkitty",
 		"Smoke em' out Struggle by Atsuover & Rageminer",
 		"VS Impostor by way too many people to list",
-		"VS Annie by atsuover"
+		"VS Annie by atsuover",
+		"VS Bob by Wildythomas and phlox",
+		"VS Bob by Wildythomas and phlox",
+		"VS Chara by hexar and a bunch of other ppl",
+		"VS Bob n Bosip by AmorAlta (not sure rn xd)"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -296,10 +308,19 @@ class ModsStoryState extends MusicBeatState
 			PlayState.storyWeek = curWeek + 7;
 			PlayState.isMod = true;
 			PlayState.campaignScore = 0;
-			new FlxTimer().start(1, function(tmr:FlxTimer)
+			if (curWeek != 7)
 			{
-				LoadingState.loadAndSwitchState(new PlayState(), true);
-			});
+				new FlxTimer().start(1, function(tmr:FlxTimer)
+				{
+					LoadingState.loadAndSwitchState(new PlayState(), true);
+				});
+			}
+			else
+			{
+				new FlxTimer().start(1, function(tmr:FlxTimer){
+					LoadingState.loadAndSwitchState(new VideoState('videos/Cutscene1Subtitles.webm', new PlayState()));
+				});
+			}
 		}
 	}
 

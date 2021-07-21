@@ -8,10 +8,12 @@ import flixel.text.FlxText;
 class VideoState extends MusicBeatState {
     var nextState:FlxState;
     var source:String = "videos/";
+    var sizething:Bool;
 
-    public function new(fileName:String = "ass",trans:FlxState) {
+    public function new(fileName:String = "ass",trans:FlxState, ?multiplySize:Bool = false) {
         nextState = trans;
         source = fileName;
+        sizething = multiplySize;
         super();
     }
     override function create() {
@@ -22,7 +24,8 @@ class VideoState extends MusicBeatState {
             LoadingState.loadAndSwitchState(nextState);
 		}
 		video.ownCamera();
-        video.setGraphicSize(Std.int(video.width * 2));
+        if (sizething)
+            video.setGraphicSize(Std.int(video.width * 2));
 		video.updateHitbox();
 		add(video);
 		video.play();

@@ -26,6 +26,7 @@ import flixel.util.FlxPath;
     - Bitstream not supported by this decoder
     maybe use vp8 (idk)
 **/
+using StringTools;
 
 class VideoPlayer extends FlxSprite {
     public var finishCallback:Void->Void=null;
@@ -35,6 +36,10 @@ class VideoPlayer extends FlxSprite {
     #end
 
     public var sound:FlxSound;
+    public var soundMultiplier:Float = 1;
+    public var prevSoundMultiplier:Float = 1;
+    var videoFrames:Int = 0;
+    var doShit:Bool = false;
 
     public var pathfile:String;
 
@@ -48,6 +53,8 @@ class VideoPlayer extends FlxSprite {
         pathfile = path;
 
         var path = Asset2File.getPath(Paths.file(path), ".webm");
+
+        videoFrames = Std.parseInt(Assets.getText(Paths.file(pathfile.replace(".webm", ".txt"))));
 
         var io:WebmIo = new WebmIoFile(path);
         player = new WebmPlayer();
@@ -67,7 +74,10 @@ class VideoPlayer extends FlxSprite {
                 finishCallback();
         });
 
-        loadGraphic(player.bitmapData); 
+        loadGraphic(player.bitmapData);
+        sound = FlxG.sound.play(Paths.file(pathfile.replace('.webm', '.ogg'))); 
+        sound.time = sound.length * soundMultiplier;
+        doShit = true;
         #end
 
         #if html5
@@ -78,7 +88,6 @@ class VideoPlayer extends FlxSprite {
     public function play() {
         #if sys
             player.play();
-            sound = FlxG.sound.play(Paths.file(pathfile + '.ogg'));
         #end
 
         #if html5
@@ -90,6 +99,41 @@ class VideoPlayer extends FlxSprite {
 	    FlxG.cameras.add(cam);
 		cam.bgColor.alpha = 0;
 		cameras = [cam];
+    }
+    override public function update(elapsed:Float) {
+        super.update(elapsed);
+        #if sys
+        soundMultiplier = player.renderedCount / videoFrames;
+        if (soundMultiplier > 1)
+			{
+				soundMultiplier = 1;
+			}
+			if (soundMultiplier < 0)
+			{
+				soundMultiplier = 0;
+			}
+        if (soundMultiplier == 0)
+			{
+				if (prevSoundMultiplier != 0)
+				{
+					sound.pause();
+					sound.time = 0;
+				}
+			} else {
+				if (prevSoundMultiplier == 0)
+				{
+					sound.resume();
+					sound.time = sound.length * soundMultiplier;
+				}
+			}
+            prevSoundMultiplier = soundMultiplier;
+            if (doShit)
+                {
+                    var compareShit:Float = 50;
+                    if (sound.time >= (sound.length * soundMultiplier) + compareShit || sound.time <= (sound.length * soundMultiplier) - compareShit)
+                        sound.time = sound.length * soundMultiplier;
+                }
+        #end
     }
 
     override public function destroy() {
