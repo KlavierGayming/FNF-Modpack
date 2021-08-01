@@ -1,24 +1,40 @@
-Wocky:kapi:7
-Beathoven:kapi:7
-Hairball:kapi-mad:7
-Nyaw:kapi:7
-Headache:garcello:8
-Nerves:garcellotired:8
-Release:garcellodead:8
-Sussus-Moogus:impostor:9
-Sabotage:impostor:9
-Meltdown:impostor:9
-Good Enough:annie:10
-Lover:annie:annie:10
-Tug Of War:annie:10
+Wocky:kapi:8
+Beathoven:kapi:8
+Hairball:kapi-mad:8
+Nyaw:kapi:8
+Headache:garcello:9
+Nerves:garcellotired:9
+Release:garcellodead:9
+Sussus-Moogus:impostor:10
+Sabotage:impostor:10
+Meltdown:impostor:10
+Good Enough:annie:11
+Lover:annie:annie:11
+Tug Of War:annie:11
 Animal:annie-drunk:11
 Sunshine:bob:12
 Withered:angrybob:12
 Run:hellbob:12
 Ron:ron:13
+Ron BSide:ron-b:13
 Trouble:gloop-bob:13
 Onslaught:glitched-bob:13
 Megalo Strike Back:chara:14
 Jump-in:bob-from-the-other-mod:15
 Swing:bosip:15
 Split:amor:15
+Lo-fight:whitty:16
+Overhead:whitty:16
+Ballistic:whittyCrazy:16
+Ballistic-Old:whittyCrazy:16
+Remorse:updike:17
+Line Art:sketchy:18
+Sketched Out:sketchy:18
+Rip And Tear:tornsketchy:18
+Empty:king:19
+Stuck:king:19
+Limbo:hypedking:19
+Portal:blackout:20
+Inverted-Ascension:cj:21
+Echoes:ruby:21
+Artificial-Lust:duet:21

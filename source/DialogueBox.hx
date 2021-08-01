@@ -111,6 +111,16 @@ class DialogueBox extends FlxSpriteGroup
 					box.frames = Paths.getSparrowAtlas('mods/gar/garBox','shared');
 					box.animation.addByPrefix('normalOpen', 'Spirit Textbox spawn', 24, false);
 					box.animation.addByIndices('normal', 'Spirit Textbox spawn', [11], "", 24);
+					case 'lo-fight' | 'overhead' | 'ballistic' | 'lo-fight-b-side' | 'overhead-b-side' | 'ballistic-b-side':
+						hasDialog = true;
+						box.frames = Paths.getSparrowAtlas('speech_bubble_talking', 'shared');
+						box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
+						box.animation.addByIndices('normal', 'speech bubble normal', [11], "", 24);
+						box.antialiasing = true;
+						box.width = 200;
+						box.height = 200;
+						box.x = -100;
+						box.y = 375;
 		}
 
 		this.dialogueList = dialogueList;
@@ -189,6 +199,46 @@ class DialogueBox extends FlxSpriteGroup
 			portraitRight.scrollFactor.set();
 			add(portraitRight);
 			portraitRight.visible = false;
+			}
+			else
+			{
+				portraitLeft = new FlxSprite(200, FlxG.height - 525);
+				portraitLeft.frames = Paths.getSparrowAtlas('whittyPort', 'bonusWeek');
+
+
+				switch(PlayState.SONG.song.toLowerCase())
+				{
+					case 'lo-fight':
+						portraitLeft.animation.addByPrefix('enter', 'Whitty Portrait Normal', 24, false);
+					case 'lo-fight-b-side':
+						portraitLeft.animation.addByPrefix('enter', 'Whitty Portrait Normal', 24, false);
+					case 'overhead':
+						portraitLeft.animation.addByPrefix('enter', 'Whitty Portrait Agitated', 24, false);
+					case 'overhead-b-side':
+						portraitLeft.animation.addByPrefix('enter', 'Whitty Portrait Agitated', 24, false);
+					case 'ballistic':
+						portraitLeft.animation.addByPrefix('enter', 'Whitty Portrait Crazy', 24, true);
+					case 'ballistic-b-side':
+						portraitLeft.animation.addByPrefix('enter', 'Whitty Portrait Crazy', 24, true);
+				}
+
+				portraitLeft.antialiasing = true;
+				portraitLeft.updateHitbox();
+				portraitLeft.scrollFactor.set();
+				add(portraitLeft);
+				portraitLeft.visible = false;
+
+				portraitRight = new FlxSprite(800, FlxG.height - 489);
+				portraitRight.frames = Paths.getSparrowAtlas('boyfriendPort', 'bonusWeek');
+				portraitRight.animation.addByPrefix('enter', 'BF portrait enter', 24, true);
+				portraitRight.antialiasing = true;
+				portraitRight.updateHitbox();
+				portraitRight.scrollFactor.set();
+				add(portraitRight);
+				portraitRight.visible = false;
+
+				portraitRight.setGraphicSize(Std.int(portraitRight.width * 0.8));
+				portraitLeft.setGraphicSize(Std.int(portraitLeft.width * 0.8));
 			}
 		
 		box.animation.play('normalOpen');
@@ -321,6 +371,7 @@ class DialogueBox extends FlxSpriteGroup
 		// swagDialogue.text = ;
 		swagDialogue.resetText(dialogueList[0]);
 		swagDialogue.start(0.04, true);
+		trace(dialogueList[0]);
 
 		switch (curCharacter)
 		{

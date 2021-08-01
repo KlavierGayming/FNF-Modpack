@@ -76,7 +76,6 @@ class Option
 
 class DFJKOption extends Option
 {
-	#if !android
 	private var controls:Controls;
 
 	public function new(controls:Controls)
@@ -95,7 +94,9 @@ class DFJKOption extends Option
 	{
 		return "Key Bindings";
 	}
-	#else
+}
+class McontrolsOption extends Option
+{
 	private var controls:Controls;
 
 	public function new(controls:Controls)
@@ -114,7 +115,27 @@ class DFJKOption extends Option
 	{
 		return "Mobile Controls";
 	}
-	#end
+}
+class CreditsOption extends Option
+{
+	private var controls:Controls;
+
+	public function new(controls:Controls)
+	{
+		super();
+		this.controls = controls;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.switchState(new CreditsState());
+		return false;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Credits";
+	}
 }
 
 class CpuStrums extends Option
@@ -136,6 +157,48 @@ class CpuStrums extends Option
 	private override function updateDisplay():String
 	{
 		return  FlxG.save.data.cpuStrums ? "Light CPU Strums" : "CPU Strums stay static";
+	}
+
+}
+class NoteSkin extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.switchState(new NoteSkinsState());
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Note Skins";
+	}
+
+}
+class MiddleScroll extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.middlescroll = !FlxG.save.data.middlescroll;
+		
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return  FlxG.save.data.middlescroll ? "Middlescroll" : "Side Scroll";
 	}
 
 }
@@ -458,7 +521,117 @@ class ScrollSpeedOption extends Option
 		return true;
 	}
 }
+class Hitsound extends Option
+{
+	var items:Array<String> = ['none', 'osuhit', 'vineboom', 'keyboard', 'bruh'];
+	var curSelected:Int = 0;
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+		acceptValues = true;
+		curSelected = getThingy();
+	}
+	public override function press():Bool
+	{
+		FlxG.save.data.hitsound = items[curSelected];
+		if (items[curSelected] != 'none')
+			FlxG.sound.play(Paths.sound('hitsounds/' + FlxG.save.data.hitsound + '_hit','shared'));
+		display = updateDisplay();
+		return true;
+	}
 
+	private override function updateDisplay():String
+	{
+		return "Current hitsound "+ FlxG.save.data.hitsound;
+
+	}
+
+	override function right():Bool {
+		curSelected += 1;
+		if (curSelected > items.length - 1)
+			curSelected = 0;
+		if (curSelected < 0)
+			curSelected = items.length - 1;
+		return true;
+	}
+
+	override function getValue():String {
+		return "Current hitsound selected "+ items[curSelected];
+	}
+
+	override function left():Bool {
+		curSelected -= 1;
+		if (curSelected > items.length - 1)
+			curSelected = 0;
+		if (curSelected < 0)
+			curSelected = items.length - 1;
+
+		return true;
+	}
+	function getThingy():Int {
+		switch (FlxG.save.data.hitsound)
+		{
+			case 'none':
+				return 0;
+			case 'osuhit':
+				return 1;
+			case 'vineboom':
+				return 2;
+			case 'keyboard':
+				return 3;
+			case 'bruh':
+				return 4;
+		}
+		return 0;
+	}
+}
+class ScrollUnderlayTransparency extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+		acceptValues = true;
+	}
+
+	public override function press():Bool
+	{
+		return false;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Scroll Underlay Transparency";
+	}
+
+	override function right():Bool {
+		FlxG.save.data.transparency += 0.1;
+
+		if (FlxG.save.data.transparency < 0)
+			FlxG.save.data.transparency = 0;
+
+		if (FlxG.save.data.transparency > 1)
+			FlxG.save.data.transparency = 1;
+		return true;
+	}
+
+	override function getValue():String {
+		return "Scroll underlay transparency (0 for invisible, 1 for visible): " + FlxG.save.data.transparency;
+	}
+
+	override function left():Bool {
+		FlxG.save.data.transparency -= 0.1;
+
+		if (FlxG.save.data.transparency < 0)
+			FlxG.save.data.transparency = 0;
+
+		if (FlxG.save.data.transparency > 1)
+			FlxG.save.data.transparency = 1;
+
+		return true;
+	}
+}
 
 class RainbowFPSOption extends Option
 {
@@ -633,5 +806,62 @@ class BotPlay extends Option
 	}
 	
 	private override function updateDisplay():String
-		return "HUDless " + (FlxG.save.data.botplay ? "on" : "off");
+		return "Botplay " + (FlxG.save.data.botplay ? "on" : "off");
+}
+class HudlessBotPlay extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+	
+	public override function press():Bool
+	{
+		FlxG.save.data.hudless = !FlxG.save.data.hudless;
+		trace('hudless : ' + FlxG.save.data.hudless);
+		display = updateDisplay();
+		return true;
+	}
+	
+	private override function updateDisplay():String
+		return "hudless botplay " + (FlxG.save.data.hudless ? "on" : "off");
+}
+class NoteSplashOption extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+	
+	public override function press():Bool
+	{
+		FlxG.save.data.noteSplash = !FlxG.save.data.noteSplash;
+		trace('noteSplash : ' + FlxG.save.data.noteSplash);
+		display = updateDisplay();
+		return true;
+	}
+	
+	private override function updateDisplay():String
+		return "noteSplash " + (FlxG.save.data.noteSplash ? "on" : "off");
+}
+class PCOption extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+	
+	public override function press():Bool
+	{
+		FlxG.save.data.pc = !FlxG.save.data.pc;
+		trace('pc : ' + FlxG.save.data.pc);
+		display = updateDisplay();
+		return true;
+	}
+	
+	private override function updateDisplay():String
+		return "pc over bf " + (FlxG.save.data.pc ? "on" : "off");
 }

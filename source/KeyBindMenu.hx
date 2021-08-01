@@ -18,7 +18,7 @@ import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
-import io.newgrounds.NG;
+//import io.newgrounds.NG;
 import lime.app.Application;
 import lime.utils.Assets;
 import flixel.math.FlxMath;
@@ -74,7 +74,7 @@ class KeyBindMenu extends MusicBeatSubstate
         blackBox = new FlxSprite(0,0).makeGraphic(FlxG.width,FlxG.height,FlxColor.BLACK);
         add(blackBox);
 
-        infoText = new FlxText(-10, 580, 1280, "(Escape to save, backspace to leave without saving)", 72);
+        infoText = new FlxText(-10, 580, 1280, #if !android "(Escape to save, backspace to leave without saving)" #else "(B to save, C to leave without saving)" #end, 72);
 		infoText.scrollFactor.set(0, 0);
 		infoText.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		infoText.borderSize = 2;
@@ -95,7 +95,7 @@ class KeyBindMenu extends MusicBeatSubstate
 
         textUpdate();
         #if android
-        addVirtualPad(UP_DOWN, A_B);
+        addVirtualPad(UP_DOWN, A_B_C);
         #end
 
 		super.create();
@@ -103,30 +103,34 @@ class KeyBindMenu extends MusicBeatSubstate
 
 	override function update(elapsed:Float)
 	{
+        #if android
+        var C = _virtualpad.buttonC.justPressed;
+        var B = _virtualpad.buttonB.justPressed;
+        #end
 
         switch(state){
 
             case "select":
-                if (FlxG.keys.justPressed.UP)
+                if (controls.UP_P)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'));
 					changeItem(-1);
 				}
 
-				if (FlxG.keys.justPressed.DOWN)
+				if (controls.DOWN_P)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'));
 					changeItem(1);
 				}
 
-                if (FlxG.keys.justPressed.ENTER){
+                if (controls.ACCEPT){
                     FlxG.sound.play(Paths.sound('scrollMenu'));
                     state = "input";
                 }
-                else if(FlxG.keys.justPressed.ESCAPE){
+                else if(FlxG.keys.justPressed.ESCAPE #if android || B #end){
                     quit();
                 }
-				else if (FlxG.keys.justPressed.BACKSPACE){
+				else if (FlxG.keys.justPressed.BACKSPACE #if android || C #end){
                     reset();
                 }
 
@@ -137,12 +141,12 @@ class KeyBindMenu extends MusicBeatSubstate
                 state = "waiting";
 
             case "waiting":
-                if(FlxG.keys.justPressed.ESCAPE){
+                if(FlxG.keys.justPressed.ESCAPE #if android || B #end){
                     keys[curSelected] = tempKey;
                     state = "select";
                     FlxG.sound.play(Paths.sound('confirmMenu'));
                 }
-                else if(FlxG.keys.justPressed.ENTER){
+                else if(controls.ACCEPT){
                     addKey(defaultKeys[curSelected]);
                     save();
                     state = "select";

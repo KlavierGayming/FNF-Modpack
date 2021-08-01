@@ -26,18 +26,36 @@ class KadeEngineData
 		if (FlxG.save.data.fps == null)
 			FlxG.save.data.fps = false;
 
+		if (FlxG.save.data.hudless == null)
+			FlxG.save.data.hudless = false;
+
 		if (FlxG.save.data.changedHit == null)
 		{
 			FlxG.save.data.changedHitX = -1;
 			FlxG.save.data.changedHitY = -1;
 			FlxG.save.data.changedHit = false;
 		}
+		if (FlxG.save.data.hitsound == null)
+			FlxG.save.data.hitsound = 'none';
+
+		if (FlxG.save.data.noteSplash == null)
+			FlxG.save.data.noteSplash = true;
+
+		if (FlxG.save.data.pc == null)
+			FlxG.save.data.pc = false;
 
 		if (FlxG.save.data.fpsRain == null)
 			FlxG.save.data.fpsRain = false;
 
 		if (FlxG.save.data.fpsCap == null)
 			FlxG.save.data.fpsCap = 60;
+		
+		FlxG.save.data.transparency = null;
+		if (FlxG.save.data.transparency == null)
+			FlxG.save.data.transparency = 0;
+
+		if (FlxG.save.data.noteAsset == null)
+			FlxG.save.data.noteAsset = 'NOTE';
 
 		#if windows
 		if (FlxG.save.data.fpsCap > 285 || FlxG.save.data.fpsCap < 60)
@@ -55,6 +73,9 @@ class KadeEngineData
 
 		if (FlxG.save.data.frames == null)
 			FlxG.save.data.frames = 10;
+
+		if (FlxG.save.data.middlescroll == null)
+			FlxG.save.data.middlescroll = false;
 
 		if (FlxG.save.data.accuracyMod == null)
 			FlxG.save.data.accuracyMod = 1;

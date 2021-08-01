@@ -31,11 +31,16 @@ class ModsStoryState extends MusicBeatState
 		['Sunshine', 'Withered', 'Run'],
 		['Ron', 'Trouble', 'Onslaught'],
 		['Megalo Strike Back'],
-		['Jump-in', 'Swing', 'Split']
+		['Jump-in', 'Swing', 'Split'],
+		['Lo-Fight', 'Overhead', 'Ballistic'],
+		['Remorse'],
+		['Line Art', 'Sketched Out', 'Rip And Tear'],
+		['Empty', 'Stuck', 'Limbo'],
+		['Portal'],
+		['Inverted-Ascension', 'Echoes', 'Artificial-Lust']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['','bf','gf'],
@@ -45,7 +50,13 @@ class ModsStoryState extends MusicBeatState
 		['', 'bf', 'gf'],
 		['', 'bf', 'gf'],
 		['', 'bf', 'gf'],
-		['','bf','gf']
+		['','bf','gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
@@ -56,7 +67,13 @@ class ModsStoryState extends MusicBeatState
 		"VS Bob by Wildythomas and phlox",
 		"VS Bob by Wildythomas and phlox",
 		"VS Chara by hexar and a bunch of other ppl",
-		"VS Bob n Bosip by AmorAlta (not sure rn xd)"
+		"VS Bob n Bosip by AmorAltra",
+		"Back Alley Blitz by KadeDev, Nate Anim8 and sock.clip (RIP WHITTY)",
+		"????",
+		"Sketchy remastered by Jason the Art Kid",
+		"VS King by tictacto and LiterallyNoOne",
+		"You died 2x. get help.",
+		"Starlight Mayhem by TheMaskedChris"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -134,16 +151,6 @@ class ModsStoryState extends MusicBeatState
 			// weekThing.updateHitbox();
 
 			// Needs an offset thingie
-			if (!weekUnlocked[i])
-			{
-				var lock:FlxSprite = new FlxSprite(weekThing.width + 10 + weekThing.x);
-				lock.frames = ui_tex;
-				lock.animation.addByPrefix('lock', 'lock');
-				lock.animation.play('lock');
-				lock.ID = i;
-				lock.antialiasing = true;
-				grpLocks.add(lock);
-			}
 		}
 
 		trace("Line 96");
@@ -218,8 +225,6 @@ class ModsStoryState extends MusicBeatState
 
 		// FlxG.watch.addQuick('font', scoreText.font);
 
-		difficultySelectors.visible = weekUnlocked[curWeek];
-
 		grpLocks.forEach(function(lock:FlxSprite)
 		{
 			lock.y = grpWeekText.members[lock.ID].y;
@@ -277,8 +282,6 @@ class ModsStoryState extends MusicBeatState
 
 	function selectWeek()
 	{
-		if (weekUnlocked[curWeek])
-		{
 			if (stopspamming == false)
 			{
 				FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -305,7 +308,7 @@ class ModsStoryState extends MusicBeatState
 			PlayState.storyDifficulty = curDifficulty;
 
 			PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + diffic, StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
-			PlayState.storyWeek = curWeek + 7;
+			PlayState.storyWeek = curWeek + 8;
 			PlayState.isMod = true;
 			PlayState.campaignScore = 0;
 			if (curWeek != 7)
@@ -321,7 +324,6 @@ class ModsStoryState extends MusicBeatState
 					LoadingState.loadAndSwitchState(new VideoState('videos/Cutscene1Subtitles.webm', new PlayState()));
 				});
 			}
-		}
 	}
 
 	function changeDifficulty(change:Int = 0):Void
@@ -378,10 +380,7 @@ class ModsStoryState extends MusicBeatState
 		for (item in grpWeekText.members)
 		{
 			item.targetY = bullShit - curWeek;
-			if (item.targetY == Std.int(0) && weekUnlocked[curWeek])
-				item.alpha = 1;
-			else
-				item.alpha = 0.6;
+			item.alpha = 1;
 			bullShit++;
 		}
 

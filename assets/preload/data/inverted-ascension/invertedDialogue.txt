@@ -1,0 +1,39 @@
+:narrator:One day, you decide to take your Girlfriend to a local music festival,
+:narrator:and a local band is currently performing..
+:BGCHANGE:2
+:gf:These guys are really good!
+:bf:Beep boop!
+:gf:Thank you for bringing me to this concert!
+:bf:Boop!
+:singer:Thank you everyone! It's  really good to have you all he-..
+:singer:Hmm!?
+:singer:Is that..!?
+:BGCHANGE:3
+:singer:You!
+:bf:Beep!?
+:singer:Yes, you! Step right up here!
+:bf:Boop!?!
+:gf:Should we go up?
+:bf:Bep!
+:gf:Come on, let's go!
+:BGCHANGE:4
+:singer:You're BF, right?
+Beep..!
+:singer:Oh man i've heard a lot about you..
+:singer:You're the one that beat The dearests, right?
+:singer:You even beat that up and coming Robot dude...
+:gf:Yes, he is!
+:singer:Sick!
+:singer:The music scene has been going crazy about you.
+:singer:And you must be GF right? Daughter of DD and MM
+:gf:Yep!
+:singer:Man, what a duo. Names CJ by the way.
+:cj:But i bet you already know that since you're here..
+:bf:Beep boop!
+:cj:Now enough rambling, sorry to interrupt your date dude, but what do you say..
+:cj:Up for a friendly match?
+:gf:I don't know.. Don't you have, like, a schedule planned for your show?
+:BGCHANGE:5
+:bf:Beep!
+:cj:Sick, man. Just warning you ahead, I ain't going easy on you!
+:gf:(He didn't answer my question!)

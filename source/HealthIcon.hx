@@ -61,7 +61,25 @@ class HealthIcon extends FlxSprite
 		animation.add('bosip', [58, 59], 0, false, isPlayer);
 		animation.add('amor', [60, 61], 0, false, isPlayer);
 		animation.add('bf-night', [0, 1], 0, false, isPlayer);
-
+		animation.add('whitty', [64, 65], 0, false, isPlayer);
+		animation.add('whittyCrazy', [66, 67], false, isPlayer);
+		animation.add('pc', [10, 11], 0, false, isPlayer);
+		animation.add('updike', [62, 63], 0, false, isPlayer);
+		animation.add('bf-updike', [0, 1], 0, false, isPlayer);
+		animation.add('sketchy', [68, 69], 0, false, isPlayer);
+		animation.add('tornsketchy', [70, 71], 0, false, isPlayer);
+		animation.add('bf-sketch', [72, 73], 0, false, isPlayer);
+		animation.add('ron-b', [74, 75], 0, false, isPlayer);
+		animation.add('king', [76, 77],0, false, isPlayer);
+		animation.add('hypedking', [78, 79],0, false, isPlayer);
+		animation.add('blackout', [80, 81],0, false, isPlayer);
+		animation.add('bf-holding-gf', [0, 1],0, false, isPlayer);
+		animation.add('cj', [82, 83],0, false, isPlayer);
+		animation.add('ruby', [84, 85],0, false, isPlayer);
+		animation.add('bfgf', [0, 1],0, false, isPlayer);
+		animation.add('duet', [86, 87],0, false, isPlayer);
+		animation.add('max', [10, 11],0, false, isPlayer);
+		animation.add('abel', [10, 11],0, false, isPlayer);
 		animation.play(char);
 
 		switch(char)

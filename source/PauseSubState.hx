@@ -183,7 +183,7 @@ class PauseSubState extends MusicBeatSubstate
 			{
 				case "Resume":
 					close();
-					if (FlxG.save.data.botplay)
+					if (FlxG.save.data.botplay && FlxG.save.data.hudless)
 						PlayState.instance.camHUD.visible = false;
 				case "Restart Song":
 					FlxG.resetState();

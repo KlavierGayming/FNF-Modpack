@@ -26,7 +26,9 @@ class OptionsMenu extends MusicBeatState
 	var options:Array<OptionCategory> = [
 		new OptionCategory("Gameplay", [
 			new DFJKOption(controls),
+			new McontrolsOption(controls),
 			new DownscrollOption("Change the layout of the strumline."),
+			new MiddleScroll("Change the layout of the strumline 2 (this time the X pos!)"),
 			new GhostTapOption("Ghost Tapping is when you tap a direction and it doesn't give you a miss."),
 			new Judgement("Customize your Hit Timings (LEFT or RIGHT)"),
 			#if desktop
@@ -36,16 +38,21 @@ class OptionsMenu extends MusicBeatState
 			new AccuracyDOption("Change how accuracy is calculated. (Accurate = Simple, Complex = Milisecond Based)"),
 			new ResetButtonOption("Toggle pressing R to gameover."),
 			// new OffsetMenu("Get a note offset based off of your inputs!"),
-			new CustomizeGameplay("Drag'n'Drop Gameplay Modules around to your preference")
+			new CustomizeGameplay("Drag'n'Drop Gameplay Modules around to your preference"),
+			new CreditsOption(controls)
 		]),
 		new OptionCategory("Appearance", [
 			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
+			#if desktop
 			new RainbowFPSOption("Make the FPS Counter Rainbow"),
+			#end
 			new AccuracyOption("Display accuracy information."),
 			new NPSDisplayOption("Shows your current Notes Per Second."),
-			new SongPositionOption("Show the songs current position (as a bar)") #if desktop ,
-			new CpuStrums("CPU's strumline lights up when a note hits it."),
-			#end
+			new SongPositionOption("Show the songs current position (as a bar)"),
+			new CpuStrums("CPU's strumline lights up when a note hits it"),
+			new NoteSplashOption("Turn note splash on or off"),
+			new NoteSkin('Change your arrow skin!'),
+			new CreditsOption(controls)
 		]),
 		
 		new OptionCategory("Misc", [
@@ -55,7 +62,11 @@ class OptionsMenu extends MusicBeatState
 			#end
 			new FlashingLightsOption("Toggle flashing lights that can cause epileptic seizures and strain."),
 			new WatermarkOption("Enable and disable all watermarks from the engine."),
-			new BotPlay("Showcase your charts and mods with autoplay.")
+			new BotPlay("Showcase your charts and mods with autoplay."),
+			new HudlessBotPlay("If you're on botplay, this will make the HUD invisible. Otherwise it does nothing."),
+			new PCOption('Turns the BF Into the PC from split in bob n bosip'),
+			new Hitsound(#if android 'Press A to set it to the current selected, use left and right to change it lmao' #else 'Press enter to save it, use left and right keys to select' #end),
+			new CreditsOption(controls)
 		])
 		
 	];
@@ -158,9 +169,9 @@ class OptionsMenu extends MusicBeatState
 						}
 					else
 					{
-						if (FlxG.keys.justPressed.RIGHT)
+						if (controls.RIGHT_P)
 							currentSelectedCat.getOptions()[curSelected].right();
-						if (FlxG.keys.justPressed.LEFT)
+						if (controls.LEFT_P)
 							currentSelectedCat.getOptions()[curSelected].left();
 					}
 				}
