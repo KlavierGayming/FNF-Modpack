@@ -91,15 +91,15 @@ class PlayState extends MusicBeatState
 	var hitsound:FlxSound;
 
 	var tankmanRun:FlxTypedGroup<TankmenBG>;
-		//tankbop shit
-		var tankBop1:FlxSprite;
-		var tankBop2:FlxSprite;
-		var tankBop3:FlxSprite;
-		var tankBop4:FlxSprite;
-		var tankBop5:FlxSprite;
-		var tankBop6:FlxSprite;
-		//end of tankbop
-		var tankWatchtower:FlxSprite;
+	//tankbop shit
+	var tankBop1:FlxSprite;
+	var tankBop2:FlxSprite;
+	var tankBop3:FlxSprite;
+	var tankBop4:FlxSprite;
+	var tankBop5:FlxSprite;
+	var tankBop6:FlxSprite;
+	//end of tankbop
+	var tankWatchtower:FlxSprite;
 
 	public static var rep:Replay;
 	public static var loadRep:Bool = false;
