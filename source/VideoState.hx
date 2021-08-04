@@ -24,8 +24,7 @@ class VideoState extends MusicBeatState {
             LoadingState.loadAndSwitchState(nextState);
 		}
 		video.ownCamera();
-        if (sizething)
-            video.setGraphicSize(Std.int(video.width * 2));
+        video.setGraphicSize(FlxG.width);
 		video.updateHitbox();
 		add(video);
 		video.play();
