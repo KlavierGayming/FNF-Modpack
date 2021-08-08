@@ -3933,7 +3933,7 @@ class PlayState extends MusicBeatState
 									pc.playAnim('singLEFT', true);
 							}
 						}
-						if (curStage == 'festival')
+						if (storyWeek == 21)
 						{
 							switch (Math.abs(daNote.noteData))
 							{

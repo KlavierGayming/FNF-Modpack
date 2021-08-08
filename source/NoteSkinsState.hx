@@ -12,7 +12,7 @@ class NoteSkinsState extends MusicBeatState {
     var viewer:FlxSprite;
     var arrow1:FlxSprite;
     var arrow2:FlxSprite;
-    var menuItems:Array<String> = ['NOTE', 'STEPMANIA','WASD','CIRCLE','AGOTI','SPOOKY','NEO', 'CUSTOM'];
+    var menuItems:Array<String> = ['NOTE', 'STEPMANIA','WASD','CIRCLE','AGOTI','SPOOKY','NEO', 'OBAMA', 'CUSTOM'];
     var curSelected:Int = 0;
     var exitButton:FlxUIButton;
     var exitNSaveButton:FlxUIButton;
@@ -155,8 +155,10 @@ class NoteSkinsState extends MusicBeatState {
                 return 5;
             case 'NEO':
                 return 6;
-            case 'CUSTOM':
+            case 'OBAMA':
                 return 7;
+            case 'CUSTOM':
+                return 8;
         }
         return 0;
     }
