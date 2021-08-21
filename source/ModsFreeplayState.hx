@@ -227,7 +227,15 @@ class ModsFreeplayState extends MusicBeatState
 			var poop:String = Highscore.formatSong(songHighscore, curDifficulty);
 
 			trace(poop);
-			
+			switch (songs[curSelected].songName.toLowerCase()) {
+				case 'yap squad':
+					PlayState.dad2SONG = Song.loadFromJson('woof', songs[curSelected].songName.toLowerCase());
+			}
+			if (songs[curSelected].week == 21)
+			{
+				PlayState.abelSONG = Song.loadFromJson('abel', songs[curSelected].songName.toLowerCase());
+				PlayState.maxSONG = Song.loadFromJson('max', songs[curSelected].songName.toLowerCase());
+			}
 			PlayState.SONG = Song.loadFromJson(poop, songLowercase);
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;

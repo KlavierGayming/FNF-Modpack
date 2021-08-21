@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="agent_lol_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="agent_lol_coming0000" x="0" y="0" width="1045" height="773" pivotX="1027" pivotY="627.15" frameX="0" frameY="0" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0001" x="0" y="0" width="1045" height="773" frameX="0" frameY="0" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0002" x="1050" y="0" width="1047" height="755" frameX="-5" frameY="-18" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0003" x="2102" y="0" width="1047" height="746" frameX="-5" frameY="-28" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0004" x="3154" y="0" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0005" x="4206" y="0" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0006" x="5258" y="0" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0007" x="5258" y="0" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0008" x="6310" y="0" width="1047" height="752" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0009" x="6310" y="0" width="1047" height="752" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0010" x="0" y="778" width="1047" height="752" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0011" x="1052" y="778" width="1047" height="763" frameX="-10" frameY="-11" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0012" x="1052" y="778" width="1047" height="763" frameX="-10" frameY="-11" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0013" x="2104" y="778" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0014" x="3156" y="778" width="1045" height="747" frameX="0" frameY="-27" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0015" x="4206" y="778" width="1045" height="747" frameX="0" frameY="-27" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0016" x="5256" y="778" width="1047" height="747" frameX="-5" frameY="-27" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0017" x="6308" y="778" width="1047" height="747" frameX="-5" frameY="-27" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0018" x="0" y="1546" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0019" x="0" y="1546" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0020" x="0" y="1546" width="1047" height="753" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0021" x="1052" y="1546" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0022" x="2104" y="1546" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0023" x="3156" y="1546" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0024" x="3156" y="1546" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0025" x="4208" y="1546" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0026" x="5260" y="1546" width="1047" height="774" frameX="-10" frameY="-19" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0027" x="6312" y="1546" width="1047" height="774" frameX="-10" frameY="-19" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0028" x="0" y="2325" width="1045" height="764" frameX="0" frameY="-29" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0029" x="0" y="2325" width="1045" height="764" frameX="0" frameY="-29" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0030" x="1050" y="2325" width="1047" height="765" frameX="-5" frameY="-28" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0031" x="1050" y="2325" width="1047" height="765" frameX="-5" frameY="-28" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0032" x="2102" y="2325" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0033" x="2102" y="2325" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_coming0034" x="2102" y="2325" width="1047" height="772" frameX="-10" frameY="-21" frameWidth="1057" frameHeight="793"/>
+	<SubTexture name="agent_lol_group_down0000" x="3154" y="2325" width="1044" height="715" pivotX="1053.95" pivotY="599.6" frameX="0" frameY="-27" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0001" x="3154" y="2325" width="1044" height="715" frameX="0" frameY="-27" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0002" x="4203" y="2325" width="1047" height="735" frameX="-4" frameY="-7" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0003" x="4203" y="2325" width="1047" height="735" frameX="-4" frameY="-7" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0004" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0005" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0006" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0007" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0008" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0009" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0010" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0011" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0012" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_down0013" x="5255" y="2325" width="1047" height="742" frameX="-9" frameY="0" frameWidth="1056" frameHeight="742"/>
+	<SubTexture name="agent_lol_group_idle0000" x="6307" y="2325" width="1044" height="754" pivotX="1054.3" pivotY="621.85" frameX="0" frameY="-19" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0001" x="6307" y="2325" width="1044" height="754" frameX="0" frameY="-19" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0002" x="0" y="3102" width="1048" height="760" frameX="-4" frameY="-12" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0003" x="0" y="3102" width="1048" height="760" frameX="-4" frameY="-12" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0004" x="1053" y="3102" width="1047" height="762" frameX="-10" frameY="-10" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0005" x="1053" y="3102" width="1047" height="762" frameX="-10" frameY="-10" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0006" x="2105" y="3102" width="1047" height="768" frameX="-10" frameY="-4" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0007" x="2105" y="3102" width="1047" height="768" frameX="-10" frameY="-4" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0008" x="3157" y="3102" width="1047" height="772" frameX="-10" frameY="0" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0009" x="3157" y="3102" width="1047" height="772" frameX="-10" frameY="0" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0010" x="3157" y="3102" width="1047" height="772" frameX="-10" frameY="0" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0011" x="3157" y="3102" width="1047" height="772" frameX="-10" frameY="0" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0012" x="3157" y="3102" width="1047" height="772" frameX="-10" frameY="0" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_idle0013" x="3157" y="3102" width="1047" height="772" frameX="-10" frameY="0" frameWidth="1057" frameHeight="773"/>
+	<SubTexture name="agent_lol_group_left0000" x="4209" y="3102" width="1044" height="769" pivotX="1054.3" pivotY="611.55" frameX="0" frameY="-6" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0001" x="4209" y="3102" width="1044" height="769" frameX="0" frameY="-6" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0002" x="5258" y="3102" width="1048" height="772" frameX="-4" frameY="-3" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0003" x="5258" y="3102" width="1048" height="772" frameX="-4" frameY="-3" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0004" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0005" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0006" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0007" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0008" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0009" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0010" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0011" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0012" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_left0013" x="6311" y="3102" width="1047" height="775" frameX="-10" frameY="0" frameWidth="1057" frameHeight="775"/>
+	<SubTexture name="agent_lol_group_right0000" x="0" y="3882" width="1044" height="763" pivotX="1054.3" pivotY="612.35" frameX="0" frameY="-8" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0001" x="0" y="3882" width="1044" height="763" frameX="0" frameY="-8" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0002" x="1049" y="3882" width="1048" height="771" frameX="-4" frameY="0" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0003" x="1049" y="3882" width="1048" height="771" frameX="-4" frameY="0" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0004" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0005" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0006" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0007" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0008" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0009" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0010" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0011" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0012" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_right0013" x="2102" y="3882" width="1047" height="762" frameX="-10" frameY="-9" frameWidth="1057" frameHeight="771"/>
+	<SubTexture name="agent_lol_group_up0000" x="3154" y="3882" width="1044" height="854" pivotX="1054.2" pivotY="708.8" frameX="0" frameY="0" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0001" x="3154" y="3882" width="1044" height="854" frameX="0" frameY="0" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0002" x="4203" y="3882" width="1048" height="832" frameX="-4" frameY="-22" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0003" x="4203" y="3882" width="1048" height="832" frameX="-4" frameY="-22" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0004" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0005" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0006" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0007" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0008" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0009" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0010" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0011" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0012" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_group_up0013" x="5256" y="3882" width="1047" height="831" frameX="-10" frameY="-23" frameWidth="1057" frameHeight="854"/>
+	<SubTexture name="agent_lol_keep0000" x="6308" y="3882" width="1044" height="772" pivotX="1046.6" pivotY="659.4" frameX="0" frameY="-5" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0001" x="6308" y="3882" width="1044" height="772" frameX="0" frameY="-5" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0002" x="0" y="4741" width="1048" height="749" frameX="-4" frameY="-29" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0003" x="0" y="4741" width="1048" height="749" frameX="-4" frameY="-29" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0004" x="1053" y="4741" width="1046" height="753" frameX="-10" frameY="-25" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0005" x="2104" y="4741" width="1046" height="753" frameX="-10" frameY="-25" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0006" x="3155" y="4741" width="1046" height="772" frameX="-10" frameY="-6" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0007" x="3155" y="4741" width="1046" height="772" frameX="-10" frameY="-6" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0008" x="4206" y="4741" width="1046" height="768" frameX="-10" frameY="-10" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0009" x="5257" y="4741" width="1046" height="765" frameX="-10" frameY="-13" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0010" x="5257" y="4741" width="1046" height="765" frameX="-10" frameY="-13" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0011" x="6308" y="4741" width="1046" height="753" frameX="-10" frameY="-25" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0012" x="0" y="5518" width="1046" height="753" frameX="-10" frameY="-25" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0013" x="1051" y="5518" width="1046" height="756" frameX="-10" frameY="-22" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0014" x="2102" y="5518" width="1044" height="756" frameX="0" frameY="-22" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0015" x="3151" y="5518" width="1044" height="777" frameX="0" frameY="-1" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0016" x="4200" y="5518" width="1048" height="777" frameX="-4" frameY="-1" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0017" x="5253" y="5518" width="1048" height="778" frameX="-4" frameY="0" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0018" x="6306" y="5518" width="1046" height="775" frameX="-10" frameY="-3" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0019" x="0" y="6301" width="1046" height="770" frameX="-10" frameY="-8" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0020" x="1051" y="6301" width="1046" height="769" frameX="-10" frameY="-9" frameWidth="1056" frameHeight="778"/>
+	<SubTexture name="agent_lol_keep0021" x="1051" y="6301" width="1046" height="769" frameX="-10" frameY="-9" frameWidth="1056" frameHeight="778"/>
+</TextureAtlas>

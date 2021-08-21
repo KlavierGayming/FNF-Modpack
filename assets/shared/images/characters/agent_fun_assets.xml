@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="agent_fun_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="agent_fun_group_down0000" x="0" y="0" width="970" height="798" pivotX="980.5" pivotY="661.4" frameX="0" frameY="-19" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0001" x="0" y="0" width="970" height="798" frameX="0" frameY="-19" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0002" x="975" y="0" width="975" height="803" frameX="-3" frameY="-12" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0003" x="975" y="0" width="975" height="803" frameX="-3" frameY="-12" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0004" x="1955" y="0" width="974" height="805" frameX="-9" frameY="-10" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0005" x="1955" y="0" width="974" height="805" frameX="-9" frameY="-10" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0006" x="2934" y="0" width="972" height="810" frameX="-11" frameY="-5" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0007" x="2934" y="0" width="972" height="810" frameX="-11" frameY="-5" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0008" x="3911" y="0" width="972" height="815" frameX="-11" frameY="0" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0009" x="3911" y="0" width="972" height="815" frameX="-11" frameY="0" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0010" x="3911" y="0" width="972" height="815" frameX="-11" frameY="0" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0011" x="3911" y="0" width="972" height="815" frameX="-11" frameY="0" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0012" x="3911" y="0" width="972" height="815" frameX="-11" frameY="0" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_down0013" x="3911" y="0" width="972" height="815" frameX="-11" frameY="0" frameWidth="983" frameHeight="817"/>
+	<SubTexture name="agent_fun_group_idle0000" x="4888" y="0" width="970" height="799" pivotX="980.55" pivotY="661.1" frameX="0" frameY="-19" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0001" x="4888" y="0" width="970" height="799" frameX="0" frameY="-19" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0002" x="5863" y="0" width="975" height="805" frameX="-3" frameY="-12" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0003" x="5863" y="0" width="975" height="805" frameX="-3" frameY="-12" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0004" x="6843" y="0" width="974" height="806" frameX="-9" frameY="-11" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0005" x="6843" y="0" width="974" height="806" frameX="-9" frameY="-11" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0006" x="0" y="820" width="972" height="812" frameX="-11" frameY="-5" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0007" x="0" y="820" width="972" height="812" frameX="-11" frameY="-5" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0008" x="977" y="820" width="972" height="817" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0009" x="977" y="820" width="972" height="817" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0010" x="977" y="820" width="972" height="817" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0011" x="977" y="820" width="972" height="817" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0012" x="977" y="820" width="972" height="817" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_idle0013" x="977" y="820" width="972" height="817" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_left0000" x="1954" y="820" width="970" height="800" pivotX="980.45" pivotY="661.4" frameX="0" frameY="-19" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0001" x="1954" y="820" width="970" height="800" frameX="0" frameY="-19" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0002" x="2929" y="820" width="975" height="807" frameX="-3" frameY="-12" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0003" x="2929" y="820" width="975" height="807" frameX="-3" frameY="-12" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0004" x="3909" y="820" width="974" height="809" frameX="-9" frameY="-10" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0005" x="3909" y="820" width="974" height="809" frameX="-9" frameY="-10" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0006" x="4888" y="820" width="972" height="814" frameX="-11" frameY="-5" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0007" x="4888" y="820" width="972" height="814" frameX="-11" frameY="-5" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0008" x="5865" y="820" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0009" x="5865" y="820" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0010" x="5865" y="820" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0011" x="5865" y="820" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0012" x="5865" y="820" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_left0013" x="5865" y="820" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_right0000" x="6842" y="820" width="971" height="799" pivotX="980.4" pivotY="661.3" frameX="0" frameY="-19" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0001" x="6842" y="820" width="971" height="799" frameX="0" frameY="-19" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0002" x="0" y="1644" width="975" height="806" frameX="-3" frameY="-12" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0003" x="0" y="1644" width="975" height="806" frameX="-3" frameY="-12" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0004" x="980" y="1644" width="974" height="808" frameX="-9" frameY="-10" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0005" x="980" y="1644" width="974" height="808" frameX="-9" frameY="-10" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0006" x="1959" y="1644" width="972" height="813" frameX="-11" frameY="-5" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0007" x="1959" y="1644" width="972" height="813" frameX="-11" frameY="-5" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0008" x="2936" y="1644" width="972" height="818" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0009" x="2936" y="1644" width="972" height="818" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0010" x="2936" y="1644" width="972" height="818" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0011" x="2936" y="1644" width="972" height="818" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0012" x="2936" y="1644" width="972" height="818" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_right0013" x="2936" y="1644" width="972" height="818" frameX="-11" frameY="0" frameWidth="983" frameHeight="818"/>
+	<SubTexture name="agent_fun_group_up0000" x="3913" y="1644" width="970" height="799" pivotX="980.45" pivotY="661.35" frameX="0" frameY="-19" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0001" x="3913" y="1644" width="970" height="799" frameX="0" frameY="-19" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0002" x="4888" y="1644" width="975" height="807" frameX="-3" frameY="-12" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0003" x="4888" y="1644" width="975" height="807" frameX="-3" frameY="-12" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0004" x="5868" y="1644" width="974" height="809" frameX="-9" frameY="-10" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0005" x="5868" y="1644" width="974" height="809" frameX="-9" frameY="-10" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0006" x="6847" y="1644" width="972" height="814" frameX="-11" frameY="-5" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0007" x="6847" y="1644" width="972" height="814" frameX="-11" frameY="-5" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0008" x="0" y="2467" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0009" x="0" y="2467" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0010" x="0" y="2467" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0011" x="0" y="2467" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0012" x="0" y="2467" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+	<SubTexture name="agent_fun_group_up0013" x="0" y="2467" width="972" height="819" frameX="-11" frameY="0" frameWidth="983" frameHeight="819"/>
+</TextureAtlas>

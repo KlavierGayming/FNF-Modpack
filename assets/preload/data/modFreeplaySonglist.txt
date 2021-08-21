@@ -38,3 +38,16 @@ Portal:blackout:20
 Inverted-Ascension:cj:21
 Echoes:ruby:21
 Artificial-Lust:duet:21
+Evaluation:Guard:22
+Terminated:GOC:22
+Recontainment:MTFUnitOne:22
+Mayhem:Chaos:22
+Playtime:SCPSlizka:22
+Explanation:Rubber:23
+Groovy Brass:bluskys:23
+Conscience:minishoey:23
+Yap Squad:jghost:23
+Intertwined:ash:23
+Momi-roll:momi:24
+Nazel:momi:24
+Neko:nekomomi:24

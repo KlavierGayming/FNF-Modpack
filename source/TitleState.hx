@@ -321,22 +321,34 @@ class TitleState extends MusicBeatState
 				{
 					returnedData[0] = data.substring(0, data.indexOf(';'));
 					returnedData[1] = data.substring(data.indexOf('-'), data.length);
-				  	if (!MainMenuState.kadeEngineVer.contains(returnedData[0].trim()) && !OutdatedSubState.leftState && MainMenuState.nightly == "")
+				  	if (!MainMenuState.kadeEngineVer.contains(returnedData[0].trim()) && !OutdatedSubState.leftState && MainMenuState.nightly == "fsdguhsfdguhusdhfgu")
 					{
 						trace('outdated lmao! ' + returnedData[0] + ' != ' + MainMenuState.kadeEngineVer);
 						OutdatedSubState.needVer = returnedData[0];
 						OutdatedSubState.currChanges = returnedData[1];
+						#if !fuckoff
 						FlxG.switchState(new MainMenuState());
+						#else
+						FlxG.switchState(new FuckOff());
+						#end
 					}
 					else
 					{
+						#if !fuckoff
 						FlxG.switchState(new MainMenuState());
+						#else
+						FlxG.switchState(new FuckOff());
+						#end					
 					}
 				}
 				
 				http.onError = function (error) {
 				  trace('error: $error');
-				  FlxG.switchState(new MainMenuState()); // fail but we go anyway
+				  #if !fuckoff
+				  FlxG.switchState(new MainMenuState());
+				  #else
+				  FlxG.switchState(new FuckOff());
+				  #end				
 				}
 				
 				http.request();

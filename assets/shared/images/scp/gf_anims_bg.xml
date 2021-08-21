@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf_anims_bg.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf back idle0000" x="0" y="0" width="380" height="629" pivotX="41.05" pivotY="470.1" frameX="0" frameY="0" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0001" x="0" y="0" width="380" height="629" frameX="0" frameY="0" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0002" x="385" y="0" width="377" height="629" frameX="-7" frameY="0" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0003" x="385" y="0" width="377" height="629" frameX="-7" frameY="0" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0004" x="767" y="0" width="374" height="629" frameX="-13" frameY="0" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0005" x="1146" y="0" width="367" height="629" frameX="-31" frameY="0" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0006" x="1518" y="0" width="345" height="629" frameX="-147" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0007" x="1518" y="0" width="345" height="629" frameX="-147" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0008" x="1868" y="0" width="343" height="629" frameX="-139" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0009" x="1868" y="0" width="343" height="629" frameX="-139" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0010" x="2216" y="0" width="345" height="629" frameX="-131" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0011" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0012" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0013" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0014" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0015" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0016" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0017" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0018" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0019" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0020" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0021" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf back idle0022" x="2566" y="0" width="347" height="629" frameX="-124" frameY="-1" frameWidth="492" frameHeight="630"/>
+	<SubTexture name="gf idle0000" x="2918" y="0" width="375" height="614" pivotX="-67.7" pivotY="469.9" frameX="0" frameY="-15" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0001" x="2918" y="0" width="375" height="614" frameX="0" frameY="-15" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0002" x="3298" y="0" width="365" height="620" frameX="-5" frameY="-9" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0003" x="3298" y="0" width="365" height="620" frameX="-5" frameY="-9" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0004" x="3668" y="0" width="357" height="627" frameX="-8" frameY="-2" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0005" x="3668" y="0" width="357" height="627" frameX="-8" frameY="-2" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0006" x="0" y="634" width="349" height="628" frameX="-12" frameY="-1" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0007" x="0" y="634" width="349" height="628" frameX="-12" frameY="-1" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0008" x="354" y="634" width="348" height="629" frameX="-13" frameY="0" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0009" x="354" y="634" width="348" height="629" frameX="-13" frameY="0" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0010" x="354" y="634" width="348" height="629" frameX="-13" frameY="0" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0011" x="354" y="634" width="348" height="629" frameX="-13" frameY="0" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0012" x="354" y="634" width="348" height="629" frameX="-13" frameY="0" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle0013" x="354" y="634" width="348" height="629" frameX="-13" frameY="0" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf idle machine0000" x="707" y="634" width="415" height="609" pivotX="55.7" pivotY="459" frameX="0" frameY="-10" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0001" x="707" y="634" width="415" height="609" frameX="0" frameY="-10" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0002" x="1127" y="634" width="405" height="612" frameX="-4" frameY="-7" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0003" x="1127" y="634" width="405" height="612" frameX="-4" frameY="-7" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0004" x="1537" y="634" width="395" height="614" frameX="-8" frameY="-5" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0005" x="1537" y="634" width="395" height="614" frameX="-8" frameY="-5" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0006" x="1937" y="634" width="387" height="618" frameX="-11" frameY="-1" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0007" x="1937" y="634" width="387" height="618" frameX="-11" frameY="-1" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0008" x="2329" y="634" width="382" height="618" frameX="-13" frameY="0" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0009" x="2329" y="634" width="382" height="618" frameX="-13" frameY="0" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0010" x="2329" y="634" width="382" height="618" frameX="-13" frameY="0" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0011" x="2329" y="634" width="382" height="618" frameX="-13" frameY="0" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0012" x="2329" y="634" width="382" height="618" frameX="-13" frameY="0" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf idle machine0013" x="2329" y="634" width="382" height="618" frameX="-13" frameY="0" frameWidth="415" frameHeight="619"/>
+	<SubTexture name="gf look right0000" x="354" y="634" width="348" height="629" pivotX="-67.7" pivotY="469.9" frameX="-63" frameY="-23" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf look right0001" x="354" y="634" width="348" height="629" frameX="-63" frameY="-23" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf look right0002" x="2716" y="634" width="358" height="626" frameX="-55" frameY="-26" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0003" x="2716" y="634" width="358" height="626" frameX="-55" frameY="-26" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0004" x="3079" y="634" width="369" height="619" frameX="-47" frameY="-33" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0005" x="3079" y="634" width="369" height="619" frameX="-47" frameY="-33" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0006" x="3453" y="634" width="376" height="615" frameX="-38" frameY="-37" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0007" x="0" y="1268" width="386" height="619" frameX="-27" frameY="-33" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0008" x="391" y="1268" width="408" height="619" frameX="-5" frameY="-33" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0009" x="804" y="1268" width="399" height="650" frameX="-7" frameY="0" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0010" x="804" y="1268" width="399" height="650" frameX="-7" frameY="0" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0011" x="1208" y="1268" width="406" height="638" frameX="-3" frameY="-13" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0012" x="1208" y="1268" width="406" height="638" frameX="-3" frameY="-13" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0013" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0014" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0015" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0016" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0017" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0018" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0019" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0020" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0021" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0022" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf look right0023" x="1619" y="1268" width="412" height="629" frameX="0" frameY="-22" frameWidth="416" frameHeight="652"/>
+	<SubTexture name="gf turn machine0000" x="354" y="634" width="348" height="629" pivotX="-67.7" pivotY="469.9" frameX="-140" frameY="-1" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf turn machine0001" x="354" y="634" width="348" height="629" frameX="-140" frameY="-1" frameWidth="375" frameHeight="629"/>
+	<SubTexture name="gf turn machine0002" x="2036" y="1268" width="351" height="629" frameX="-126" frameY="-1" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0003" x="2036" y="1268" width="351" height="629" frameX="-126" frameY="-1" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0004" x="2392" y="1268" width="357" height="629" frameX="-102" frameY="-1" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0005" x="2754" y="1268" width="362" height="629" frameX="-83" frameY="-1" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0006" x="3121" y="1268" width="387" height="629" frameX="0" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0007" x="3121" y="1268" width="387" height="629" frameX="0" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0008" x="3513" y="1268" width="385" height="629" frameX="-6" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0009" x="3513" y="1268" width="385" height="629" frameX="-6" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0010" x="0" y="1923" width="382" height="629" frameX="-11" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0011" x="0" y="1923" width="382" height="629" frameX="-11" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0012" x="387" y="1923" width="380" height="629" frameX="-18" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0013" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0014" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0015" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0016" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0017" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0018" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0019" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0020" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0021" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0022" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+	<SubTexture name="gf turn machine0023" x="772" y="1923" width="380" height="629" frameX="-19" frameY="0" frameWidth="488" frameHeight="630"/>
+</TextureAtlas>

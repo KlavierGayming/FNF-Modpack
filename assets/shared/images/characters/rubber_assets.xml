@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rubber_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rubber down0000" x="0" y="0" width="306" height="477" pivotX="278.55" pivotY="337.7" frameX="0" frameY="-11" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0001" x="0" y="0" width="306" height="477" frameX="0" frameY="-11" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0002" x="311" y="0" width="294" height="484" frameX="-1" frameY="-3" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0003" x="311" y="0" width="294" height="484" frameX="-1" frameY="-3" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0004" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0005" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0006" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0007" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0008" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0009" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0010" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0011" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0012" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber down0013" x="610" y="0" width="292" height="487" frameX="0" frameY="0" frameWidth="306" frameHeight="488"/>
+	<SubTexture name="rubber fort down0000" x="907" y="0" width="369" height="465" pivotX="393.65" pivotY="386.15" frameX="0" frameY="-13" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0001" x="907" y="0" width="369" height="465" frameX="0" frameY="-13" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0002" x="1281" y="0" width="366" height="474" frameX="-2" frameY="-4" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0003" x="1281" y="0" width="366" height="474" frameX="-2" frameY="-4" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0004" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0005" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0006" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0007" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0008" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0009" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0010" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0011" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0012" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort down0013" x="1652" y="0" width="362" height="478" frameX="-4" frameY="0" frameWidth="369" frameHeight="478"/>
+	<SubTexture name="rubber fort idle0000" x="2019" y="0" width="379" height="472" pivotX="406.05" pivotY="310.7" frameX="0" frameY="-21" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0001" x="2019" y="0" width="379" height="472" frameX="0" frameY="-21" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0002" x="2403" y="0" width="375" height="479" frameX="-2" frameY="-14" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0003" x="2403" y="0" width="375" height="479" frameX="-2" frameY="-14" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0004" x="2783" y="0" width="370" height="482" frameX="-7" frameY="-10" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0005" x="2783" y="0" width="370" height="482" frameX="-7" frameY="-10" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0006" x="3158" y="0" width="365" height="487" frameX="-11" frameY="-5" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0007" x="3158" y="0" width="365" height="487" frameX="-11" frameY="-5" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0008" x="3528" y="0" width="362" height="492" frameX="-14" frameY="0" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0009" x="3528" y="0" width="362" height="492" frameX="-14" frameY="0" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0010" x="3528" y="0" width="362" height="492" frameX="-14" frameY="0" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0011" x="3528" y="0" width="362" height="492" frameX="-14" frameY="0" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0012" x="3528" y="0" width="362" height="492" frameX="-14" frameY="0" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort idle0013" x="3528" y="0" width="362" height="492" frameX="-14" frameY="0" frameWidth="379" frameHeight="493"/>
+	<SubTexture name="rubber fort left0000" x="0" y="497" width="444" height="498" pivotX="442.65" pivotY="384.5" frameX="0" frameY="-2" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0001" x="0" y="497" width="444" height="498" frameX="0" frameY="-2" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0002" x="449" y="497" width="442" height="498" frameX="-5" frameY="-2" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0003" x="449" y="497" width="442" height="498" frameX="-5" frameY="-2" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0004" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0005" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0006" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0007" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0008" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0009" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0010" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0011" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0012" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort left0013" x="896" y="497" width="439" height="500" frameX="-12" frameY="0" frameWidth="451" frameHeight="500"/>
+	<SubTexture name="rubber fort right0000" x="1340" y="497" width="508" height="497" pivotX="343.7" pivotY="364.1" frameX="0" frameY="-2" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0001" x="1340" y="497" width="508" height="497" frameX="0" frameY="-2" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0002" x="1853" y="497" width="496" height="498" frameX="-9" frameY="-1" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0003" x="1853" y="497" width="496" height="498" frameX="-9" frameY="-1" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0004" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0005" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0006" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0007" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0008" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0009" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0010" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0011" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0012" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort right0013" x="2354" y="497" width="495" height="499" frameX="-6" frameY="0" frameWidth="508" frameHeight="499"/>
+	<SubTexture name="rubber fort up0000" x="2854" y="497" width="404" height="562" pivotX="372.9" pivotY="382.95" frameX="0" frameY="0" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0001" x="2854" y="497" width="404" height="562" frameX="0" frameY="0" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0002" x="3263" y="497" width="403" height="555" frameX="-6" frameY="-7" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0003" x="3263" y="497" width="403" height="555" frameX="-6" frameY="-7" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0004" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0005" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0006" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0007" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0008" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0009" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0010" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0011" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0012" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber fort up0013" x="3671" y="497" width="401" height="548" frameX="-11" frameY="-14" frameWidth="412" frameHeight="562"/>
+	<SubTexture name="rubber idle0000" x="0" y="1064" width="320" height="488" pivotX="340.35" pivotY="378.35" frameX="-6" frameY="-20" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0001" x="0" y="1064" width="320" height="488" frameX="-6" frameY="-20" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0002" x="325" y="1064" width="319" height="497" frameX="-2" frameY="-11" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0003" x="325" y="1064" width="319" height="497" frameX="-2" frameY="-11" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0004" x="649" y="1064" width="316" height="500" frameX="-2" frameY="-8" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0005" x="649" y="1064" width="316" height="500" frameX="-2" frameY="-8" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0006" x="970" y="1064" width="314" height="505" frameX="0" frameY="-2" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0007" x="970" y="1064" width="314" height="505" frameX="0" frameY="-2" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0008" x="1289" y="1064" width="312" height="507" frameX="0" frameY="0" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0009" x="1289" y="1064" width="312" height="507" frameX="0" frameY="0" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0010" x="1289" y="1064" width="312" height="507" frameX="0" frameY="0" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0011" x="1289" y="1064" width="312" height="507" frameX="0" frameY="0" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0012" x="1289" y="1064" width="312" height="507" frameX="0" frameY="0" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber idle0013" x="1289" y="1064" width="312" height="507" frameX="0" frameY="0" frameWidth="326" frameHeight="508"/>
+	<SubTexture name="rubber left0000" x="1606" y="1064" width="335" height="513" pivotX="394.5" pivotY="322.9" frameX="0" frameY="0" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0001" x="1606" y="1064" width="335" height="513" frameX="0" frameY="0" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0002" x="1946" y="1064" width="321" height="511" frameX="-16" frameY="-2" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0003" x="1946" y="1064" width="321" height="511" frameX="-16" frameY="-2" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0004" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0005" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0006" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0007" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0008" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0009" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0010" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0011" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0012" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber left0013" x="2272" y="1064" width="314" height="509" frameX="-23" frameY="-4" frameWidth="337" frameHeight="513"/>
+	<SubTexture name="rubber right0000" x="2591" y="1064" width="343" height="497" pivotX="318.1" pivotY="352.45" frameX="-13" frameY="-1" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0001" x="2591" y="1064" width="343" height="497" frameX="-13" frameY="-1" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0002" x="2939" y="1064" width="337" height="497" frameX="-7" frameY="-1" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0003" x="2939" y="1064" width="337" height="497" frameX="-7" frameY="-1" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0004" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0005" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0006" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0007" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0008" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0009" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0010" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0011" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0012" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber right0013" x="3281" y="1064" width="338" height="498" frameX="0" frameY="0" frameWidth="356" frameHeight="498"/>
+	<SubTexture name="rubber up0000" x="0" y="1582" width="503" height="560" pivotX="377.1" pivotY="423.85" frameX="0" frameY="0" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0001" x="0" y="1582" width="503" height="560" frameX="0" frameY="0" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0002" x="508" y="1582" width="501" height="548" frameX="-6" frameY="-13" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0003" x="508" y="1582" width="501" height="548" frameX="-6" frameY="-13" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0004" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0005" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0006" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0007" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0008" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0009" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0010" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0011" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0012" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+	<SubTexture name="rubber up0013" x="1014" y="1582" width="502" height="542" frameX="-8" frameY="-19" frameWidth="510" frameHeight="561"/>
+</TextureAtlas>

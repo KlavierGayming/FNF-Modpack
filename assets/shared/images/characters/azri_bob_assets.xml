@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="azri_bob_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="azri bob down0000" x="0" y="0" width="358" height="448" pivotX="444.55" pivotY="416.35" frameX="-1" frameY="-3" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0001" x="363" y="0" width="356" height="445" frameX="-3" frameY="-7" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0002" x="724" y="0" width="357" height="442" frameX="-2" frameY="-10" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0003" x="1086" y="0" width="354" height="438" frameX="-4" frameY="-14" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0004" x="1445" y="0" width="355" height="435" frameX="-3" frameY="-17" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0005" x="1805" y="0" width="356" height="439" frameX="-2" frameY="-13" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0006" x="2166" y="0" width="357" height="443" frameX="-2" frameY="-8" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0007" x="2528" y="0" width="358" height="447" frameX="-1" frameY="-4" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0008" x="2891" y="0" width="360" height="451" frameX="0" frameY="0" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0009" x="2891" y="0" width="360" height="451" frameX="0" frameY="0" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0010" x="2891" y="0" width="360" height="451" frameX="0" frameY="0" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0011" x="2891" y="0" width="360" height="451" frameX="0" frameY="0" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0012" x="2891" y="0" width="360" height="451" frameX="0" frameY="0" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob down0013" x="2891" y="0" width="360" height="451" frameX="0" frameY="0" frameWidth="360" frameHeight="452"/>
+	<SubTexture name="azri bob idle0000" x="3256" y="0" width="414" height="435" pivotX="445.5" pivotY="352.15" frameX="-10" frameY="-18" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0001" x="3675" y="0" width="414" height="438" frameX="-7" frameY="-15" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0002" x="0" y="456" width="414" height="441" frameX="-4" frameY="-12" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0003" x="419" y="456" width="410" height="444" frameX="-3" frameY="-8" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0004" x="834" y="456" width="406" height="448" frameX="-1" frameY="-4" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0005" x="1245" y="456" width="402" height="449" frameX="-1" frameY="-3" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0006" x="1652" y="456" width="399" height="451" frameX="0" frameY="-1" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0007" x="2056" y="456" width="398" height="451" frameX="0" frameY="-1" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0008" x="2459" y="456" width="397" height="452" frameX="-1" frameY="0" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0009" x="2459" y="456" width="397" height="452" frameX="-1" frameY="0" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0010" x="2459" y="456" width="397" height="452" frameX="-1" frameY="0" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0011" x="2459" y="456" width="397" height="452" frameX="-1" frameY="0" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0012" x="2459" y="456" width="397" height="452" frameX="-1" frameY="0" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob idle0013" x="2459" y="456" width="397" height="452" frameX="-1" frameY="0" frameWidth="424" frameHeight="453"/>
+	<SubTexture name="azri bob left0000" x="2861" y="456" width="377" height="450" pivotX="392.8" pivotY="309.85" frameX="0" frameY="-3" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0001" x="3243" y="456" width="375" height="451" frameX="-2" frameY="-2" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0002" x="3623" y="456" width="374" height="453" frameX="-3" frameY="0" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0003" x="0" y="914" width="371" height="452" frameX="-6" frameY="-2" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0004" x="376" y="914" width="369" height="450" frameX="-8" frameY="-4" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0005" x="750" y="914" width="367" height="448" frameX="-10" frameY="-7" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0006" x="1122" y="914" width="366" height="444" frameX="-11" frameY="-11" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0007" x="1493" y="914" width="364" height="440" frameX="-13" frameY="-15" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0008" x="1862" y="914" width="363" height="436" frameX="-14" frameY="-19" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0009" x="1862" y="914" width="363" height="436" frameX="-14" frameY="-19" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0010" x="1862" y="914" width="363" height="436" frameX="-14" frameY="-19" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0011" x="1862" y="914" width="363" height="436" frameX="-14" frameY="-19" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0012" x="1862" y="914" width="363" height="436" frameX="-14" frameY="-19" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob left0013" x="1862" y="914" width="363" height="436" frameX="-14" frameY="-19" frameWidth="377" frameHeight="455"/>
+	<SubTexture name="azri bob right0000" x="2230" y="914" width="348" height="453" pivotX="431.4" pivotY="352.3" frameX="-13" frameY="0" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0001" x="2583" y="914" width="346" height="452" frameX="-10" frameY="-1" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0002" x="2934" y="914" width="345" height="451" frameX="-7" frameY="-2" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0003" x="3284" y="914" width="345" height="451" frameX="-6" frameY="-2" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0004" x="3634" y="914" width="348" height="451" frameX="-4" frameY="-2" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0005" x="0" y="1372" width="349" height="451" frameX="-3" frameY="-2" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0006" x="354" y="1372" width="350" height="450" frameX="-2" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0007" x="709" y="1372" width="351" height="450" frameX="-1" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0008" x="1065" y="1372" width="352" height="450" frameX="0" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0009" x="1065" y="1372" width="352" height="450" frameX="0" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0010" x="1065" y="1372" width="352" height="450" frameX="0" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0011" x="1065" y="1372" width="352" height="450" frameX="0" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0012" x="1065" y="1372" width="352" height="450" frameX="0" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob right0013" x="1065" y="1372" width="352" height="450" frameX="0" frameY="-3" frameWidth="361" frameHeight="453"/>
+	<SubTexture name="azri bob up0000" x="1422" y="1372" width="417" height="484" pivotX="425.8" pivotY="388.95" frameX="0" frameY="0" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0001" x="1844" y="1372" width="418" height="482" frameX="0" frameY="-2" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0002" x="2267" y="1372" width="418" height="479" frameX="-1" frameY="-5" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0003" x="2690" y="1372" width="417" height="477" frameX="-2" frameY="-8" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0004" x="3112" y="1372" width="418" height="474" frameX="-2" frameY="-11" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0005" x="3535" y="1372" width="418" height="472" frameX="-2" frameY="-13" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0006" x="0" y="1861" width="417" height="471" frameX="-3" frameY="-14" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0007" x="422" y="1861" width="417" height="469" frameX="-3" frameY="-16" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0008" x="844" y="1861" width="417" height="468" frameX="-3" frameY="-17" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0009" x="844" y="1861" width="417" height="468" frameX="-3" frameY="-17" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0010" x="844" y="1861" width="417" height="468" frameX="-3" frameY="-17" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0011" x="844" y="1861" width="417" height="468" frameX="-3" frameY="-17" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0012" x="844" y="1861" width="417" height="468" frameX="-3" frameY="-17" frameWidth="420" frameHeight="485"/>
+	<SubTexture name="azri bob up0013" x="844" y="1861" width="417" height="468" frameX="-3" frameY="-17" frameWidth="420" frameHeight="485"/>
+</TextureAtlas>

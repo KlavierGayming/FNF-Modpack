@@ -37,7 +37,10 @@ class ModsStoryState extends MusicBeatState
 		['Line Art', 'Sketched Out', 'Rip And Tear'],
 		['Empty', 'Stuck', 'Limbo'],
 		['Portal'],
-		['Inverted-Ascension', 'Echoes', 'Artificial-Lust']
+		['Inverted-Ascension', 'Echoes', 'Artificial-Lust'],
+		['Evaluation', 'Terminated', 'Recontainment', 'Mayhem'],
+		['Groovy Brass', 'Conscience', 'Yap Squad', 'Intertwined'],
+		['Momi-roll', 'Nazel', 'Neko']
 	];
 	var curDifficulty:Int = 1;
 
@@ -51,6 +54,9 @@ class ModsStoryState extends MusicBeatState
 		['', 'bf', 'gf'],
 		['', 'bf', 'gf'],
 		['','bf','gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
+		['', 'bf', 'gf'],
 		['', 'bf', 'gf'],
 		['', 'bf', 'gf'],
 		['', 'bf', 'gf'],
@@ -73,7 +79,10 @@ class ModsStoryState extends MusicBeatState
 		"Sketchy remastered by Jason the Art Kid",
 		"VS King by tictacto and LiterallyNoOne",
 		"You died 2x. get help.",
-		"Starlight Mayhem by TheMaskedChris"
+		"Starlight Mayhem by TheMaskedChris",
+		"Friday Night Site by Azri and Ranger",
+		"Bob And Bosip (ITB Edition) by AmorAltra",
+		"momi by bbpanzu"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -304,7 +313,11 @@ class ModsStoryState extends MusicBeatState
 				case 2:
 					diffic = '-hard';
 			}
-
+			if (curWeek == 21)
+			{
+				PlayState.abelSONG = Song.loadFromJson('abel', PlayState.storyPlaylist[0]);
+				PlayState.maxSONG = Song.loadFromJson('max', PlayState.storyPlaylist[0]);			
+			}
 			PlayState.storyDifficulty = curDifficulty;
 
 			PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + diffic, StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());

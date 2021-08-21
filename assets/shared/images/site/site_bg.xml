@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="site_bg.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="site idle0000" x="0" y="0" width="1544" height="818" pivotX="160.7" pivotY="474.45" frameX="0" frameY="0" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0000" x="0" y="0" width="1544" height="818" pivotX="160.7" pivotY="474.45" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0001" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0002" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0003" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0004" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0005" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0006" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0007" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0008" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0009" x="0" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0010" x="1549" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0011" x="1549" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0012" x="3098" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0013" x="3098" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0014" x="4647" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0015" x="4647" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0016" x="6196" y="0" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0017" x="0" y="823" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0018" x="1549" y="823" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0019" x="3098" y="823" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0020" x="4647" y="823" width="1544" height="819" frameX="-160" frameY="-473" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0021" x="6196" y="823" width="1544" height="819" frameX="-160" frameY="-473" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0022" x="0" y="1647" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0023" x="1549" y="1647" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0024" x="3098" y="1647" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0025" x="4647" y="1647" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0026" x="6196" y="1647" width="1544" height="848" frameX="-160" frameY="-444" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0027" x="0" y="2500" width="1544" height="834" frameX="-160" frameY="-458" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0028" x="1549" y="2500" width="1544" height="837" frameX="-160" frameY="-455" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0029" x="3098" y="2500" width="1544" height="837" frameX="-160" frameY="-455" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0030" x="4647" y="2500" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0031" x="6196" y="2500" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0032" x="0" y="3342" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0033" x="1549" y="3342" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0034" x="3098" y="3342" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0035" x="4647" y="3342" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0036" x="6196" y="3342" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0037" x="0" y="4165" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0038" x="1549" y="4165" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0039" x="3098" y="4165" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0040" x="4647" y="4165" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0041" x="6196" y="4165" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0042" x="0" y="4988" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0043" x="1549" y="4988" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0044" x="3098" y="4988" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0045" x="4647" y="4988" width="1544" height="818" frameX="-160" frameY="-474" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0046" x="6196" y="4988" width="1544" height="857" frameX="-160" frameY="-435" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0047" x="0" y="5850" width="1544" height="907" frameX="-160" frameY="-385" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0048" x="1549" y="5850" width="1544" height="1023" frameX="-160" frameY="-269" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0049" x="3098" y="5850" width="1912" height="1292" frameX="0" frameY="0" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0050" x="3098" y="5850" width="1912" height="1292" frameX="0" frameY="0" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0051" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0052" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0053" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0054" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0055" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0056" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0057" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0058" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0059" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0060" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0061" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0062" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0063" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+	<SubTexture name="site is gone0064" x="5015" y="5850" width="1878" height="616" frameX="-59" frameY="-755" frameWidth="1937" frameHeight="1371"/>
+</TextureAtlas>

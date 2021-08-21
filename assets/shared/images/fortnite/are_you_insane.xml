@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="are you insane.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="science team bopping0000" x="0" y="0" width="617" height="541" pivotX="286.1" pivotY="431.1" frameX="-5" frameY="-14" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0001" x="0" y="0" width="617" height="541" frameX="-5" frameY="-14" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0002" x="622" y="0" width="614" height="546" frameX="-5" frameY="-8" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0003" x="622" y="0" width="614" height="546" frameX="-5" frameY="-8" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0004" x="1241" y="0" width="613" height="551" frameX="-3" frameY="-4" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0005" x="1241" y="0" width="613" height="551" frameX="-3" frameY="-4" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0006" x="0" y="556" width="611" height="555" frameX="-2" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0007" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0008" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0009" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0010" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0011" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0012" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+	<SubTexture name="science team bopping0013" x="616" y="556" width="613" height="555" frameX="0" frameY="0" frameWidth="622" frameHeight="555"/>
+</TextureAtlas>

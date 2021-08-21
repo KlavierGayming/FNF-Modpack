@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="agent_lame_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="agent_lame_group_down0000" x="0" y="0" width="1054" height="805" pivotX="1053.7" pivotY="672.1" frameX="0" frameY="-19" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0001" x="0" y="0" width="1054" height="805" frameX="0" frameY="-19" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0002" x="1059" y="0" width="1041" height="811" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0003" x="1059" y="0" width="1041" height="811" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0004" x="2105" y="0" width="1028" height="812" frameX="-10" frameY="-11" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0005" x="2105" y="0" width="1028" height="812" frameX="-10" frameY="-11" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0006" x="3138" y="0" width="1023" height="818" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0007" x="3138" y="0" width="1023" height="818" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0008" x="4166" y="0" width="1023" height="823" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0009" x="4166" y="0" width="1023" height="823" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0010" x="4166" y="0" width="1023" height="823" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0011" x="4166" y="0" width="1023" height="823" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0012" x="4166" y="0" width="1023" height="823" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_down0013" x="4166" y="0" width="1023" height="823" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_idle0000" x="5194" y="0" width="1053" height="808" pivotX="1053.9" pivotY="672.4" frameX="0" frameY="-19" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0001" x="5194" y="0" width="1053" height="808" frameX="0" frameY="-19" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0002" x="6252" y="0" width="1041" height="814" frameX="-4" frameY="-12" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0003" x="6252" y="0" width="1041" height="814" frameX="-4" frameY="-12" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0004" x="0" y="828" width="1029" height="816" frameX="-9" frameY="-10" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0005" x="0" y="828" width="1029" height="816" frameX="-9" frameY="-10" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0006" x="1034" y="828" width="1024" height="821" frameX="-9" frameY="-5" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0007" x="1034" y="828" width="1024" height="821" frameX="-9" frameY="-5" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0008" x="2063" y="828" width="1024" height="826" frameX="-9" frameY="0" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0009" x="2063" y="828" width="1024" height="826" frameX="-9" frameY="0" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0010" x="2063" y="828" width="1024" height="826" frameX="-9" frameY="0" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0011" x="2063" y="828" width="1024" height="826" frameX="-9" frameY="0" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0012" x="2063" y="828" width="1024" height="826" frameX="-9" frameY="0" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_idle0013" x="2063" y="828" width="1024" height="826" frameX="-9" frameY="0" frameWidth="1053" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_left0000" x="3092" y="828" width="1054" height="805" pivotX="1053.5" pivotY="672.1" frameX="0" frameY="-19" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0001" x="3092" y="828" width="1054" height="805" frameX="0" frameY="-19" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0002" x="4151" y="828" width="1041" height="812" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0003" x="4151" y="828" width="1041" height="812" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0004" x="5197" y="828" width="1028" height="813" frameX="-10" frameY="-11" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0005" x="5197" y="828" width="1028" height="813" frameX="-10" frameY="-11" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0006" x="6230" y="828" width="1023" height="819" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0007" x="6230" y="828" width="1023" height="819" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0008" x="0" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0009" x="0" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0010" x="0" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0011" x="0" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0012" x="0" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_left0013" x="0" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0000" x="1028" y="1659" width="1054" height="805" pivotX="1053.6" pivotY="672.1" frameX="0" frameY="-19" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0001" x="1028" y="1659" width="1054" height="805" frameX="0" frameY="-19" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0002" x="2087" y="1659" width="1041" height="812" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0003" x="2087" y="1659" width="1041" height="812" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0004" x="3133" y="1659" width="1028" height="813" frameX="-10" frameY="-11" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0005" x="3133" y="1659" width="1028" height="813" frameX="-10" frameY="-11" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0006" x="4166" y="1659" width="1023" height="819" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0007" x="4166" y="1659" width="1023" height="819" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0008" x="5194" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0009" x="5194" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0010" x="5194" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0011" x="5194" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0012" x="5194" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_right0013" x="5194" y="1659" width="1023" height="824" frameX="-10" frameY="0" frameWidth="1054" frameHeight="824"/>
+	<SubTexture name="agent_lame_group_up0000" x="6222" y="1659" width="1054" height="808" pivotX="1053.7" pivotY="672.15" frameX="0" frameY="-19" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0001" x="6222" y="1659" width="1054" height="808" frameX="0" frameY="-19" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0002" x="0" y="2488" width="1041" height="815" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0003" x="0" y="2488" width="1041" height="815" frameX="-4" frameY="-12" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0004" x="1046" y="2488" width="1028" height="817" frameX="-10" frameY="-10" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0005" x="1046" y="2488" width="1028" height="817" frameX="-10" frameY="-10" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0006" x="2079" y="2488" width="1023" height="822" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0007" x="2079" y="2488" width="1023" height="822" frameX="-10" frameY="-5" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0008" x="3107" y="2488" width="1023" height="827" frameX="-10" frameY="0" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0009" x="3107" y="2488" width="1023" height="827" frameX="-10" frameY="0" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0010" x="3107" y="2488" width="1023" height="827" frameX="-10" frameY="0" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0011" x="3107" y="2488" width="1023" height="827" frameX="-10" frameY="0" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0012" x="3107" y="2488" width="1023" height="827" frameX="-10" frameY="0" frameWidth="1054" frameHeight="827"/>
+	<SubTexture name="agent_lame_group_up0013" x="3107" y="2488" width="1023" height="827" frameX="-10" frameY="0" frameWidth="1054" frameHeight="827"/>
+</TextureAtlas>

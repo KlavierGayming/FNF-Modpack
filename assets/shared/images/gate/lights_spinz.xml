@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lights_spinz.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lights_red0000" x="0" y="0" width="2587" height="212" pivotX="95.5" pivotY="0"/>
+	<SubTexture name="lights_red0001" x="0" y="217" width="2408" height="190" frameX="-95" frameY="0" frameWidth="2587" frameHeight="212"/>
+	<SubTexture name="lights_red0002" x="0" y="217" width="2408" height="190" frameX="-95" frameY="0" frameWidth="2587" frameHeight="212"/>
+	<SubTexture name="lights_red0003" x="0" y="412" width="2433" height="195" frameX="-81" frameY="0" frameWidth="2587" frameHeight="212"/>
+	<SubTexture name="lights_red0004" x="0" y="412" width="2433" height="195" frameX="-81" frameY="0" frameWidth="2587" frameHeight="212"/>
+	<SubTexture name="lights_red0005" x="0" y="0" width="2587" height="212"/>
+	<SubTexture name="lights_red0006" x="0" y="0" width="2587" height="212"/>
+</TextureAtlas>

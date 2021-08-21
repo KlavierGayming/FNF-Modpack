@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sliza_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sliza down0000" x="0" y="0" width="522" height="393" pivotX="581.15" pivotY="294.3" frameX="0" frameY="-9" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0001" x="0" y="0" width="522" height="393" frameX="0" frameY="-9" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0002" x="527" y="0" width="508" height="398" frameX="-7" frameY="-4" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0003" x="527" y="0" width="508" height="398" frameX="-7" frameY="-4" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0004" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0005" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0006" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0007" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0008" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0009" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0010" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0011" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0012" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza down0013" x="1040" y="0" width="502" height="402" frameX="-10" frameY="0" frameWidth="522" frameHeight="402"/>
+	<SubTexture name="sliza idle0000" x="1547" y="0" width="510" height="382" pivotX="568.4" pivotY="351.35" frameX="0" frameY="-29" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0001" x="1547" y="0" width="510" height="382" frameX="0" frameY="-29" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0002" x="2062" y="0" width="492" height="398" frameX="-9" frameY="-12" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0003" x="2062" y="0" width="492" height="398" frameX="-9" frameY="-12" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0004" x="2559" y="0" width="488" height="407" frameX="-11" frameY="-2" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0005" x="2559" y="0" width="488" height="407" frameX="-11" frameY="-2" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0006" x="3052" y="0" width="483" height="409" frameX="-16" frameY="0" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0007" x="3052" y="0" width="483" height="409" frameX="-16" frameY="0" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0008" x="3540" y="0" width="493" height="405" frameX="-9" frameY="-5" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0009" x="0" y="414" width="501" height="403" frameX="-5" frameY="-7" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0010" x="0" y="414" width="501" height="403" frameX="-5" frameY="-7" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0011" x="0" y="414" width="501" height="403" frameX="-5" frameY="-7" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0012" x="0" y="414" width="501" height="403" frameX="-5" frameY="-7" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza idle0013" x="0" y="414" width="501" height="403" frameX="-5" frameY="-7" frameWidth="510" frameHeight="411"/>
+	<SubTexture name="sliza left0000" x="506" y="414" width="487" height="408" pivotX="550.35" pivotY="275.15" frameX="0" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0001" x="506" y="414" width="487" height="408" frameX="0" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0002" x="998" y="414" width="488" height="408" frameX="-2" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0003" x="998" y="414" width="488" height="408" frameX="-2" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0004" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0005" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0006" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0007" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0008" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0009" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0010" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0011" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0012" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza left0013" x="1491" y="414" width="487" height="408" frameX="-3" frameY="0" frameWidth="490" frameHeight="408"/>
+	<SubTexture name="sliza right0000" x="1983" y="414" width="516" height="408" pivotX="555.85" pivotY="275.45" frameX="-2" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0001" x="1983" y="414" width="516" height="408" frameX="-2" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0002" x="2504" y="414" width="510" height="408" frameX="-1" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0003" x="2504" y="414" width="510" height="408" frameX="-1" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0004" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0005" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0006" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0007" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0008" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0009" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0010" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0011" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0012" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza right0013" x="3019" y="414" width="502" height="408" frameX="0" frameY="0" frameWidth="518" frameHeight="408"/>
+	<SubTexture name="sliza up0000" x="3526" y="414" width="468" height="420" pivotX="572.4" pivotY="279.35" frameX="-9" frameY="0" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0001" x="3526" y="414" width="468" height="420" frameX="-9" frameY="0" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0002" x="0" y="839" width="482" height="410" frameX="-2" frameY="-10" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0003" x="0" y="839" width="482" height="410" frameX="-2" frameY="-10" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0004" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0005" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0006" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0007" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0008" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0009" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0010" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0011" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0012" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+	<SubTexture name="sliza up0013" x="487" y="839" width="486" height="408" frameX="0" frameY="-13" frameWidth="486" frameHeight="421"/>
+</TextureAtlas>

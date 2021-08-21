@@ -62,7 +62,7 @@ class HealthIcon extends FlxSprite
 		animation.add('amor', [60, 61], 0, false, isPlayer);
 		animation.add('bf-night', [0, 1], 0, false, isPlayer);
 		animation.add('whitty', [64, 65], 0, false, isPlayer);
-		animation.add('whittyCrazy', [66, 67], false, isPlayer);
+		animation.add('whittyCrazy', [66, 67],0, false, isPlayer);
 		animation.add('pc', [10, 11], 0, false, isPlayer);
 		animation.add('updike', [62, 63], 0, false, isPlayer);
 		animation.add('bf-updike', [0, 1], 0, false, isPlayer);
@@ -80,6 +80,19 @@ class HealthIcon extends FlxSprite
 		animation.add('duet', [86, 87],0, false, isPlayer);
 		animation.add('max', [10, 11],0, false, isPlayer);
 		animation.add('abel', [10, 11],0, false, isPlayer);
+		animation.add('Guard', [88, 89],0, false, isPlayer);
+		animation.add('MTFUnitOne', [90, 91],0, false, isPlayer);
+		animation.add('Chaos', [92, 93],0, false, isPlayer);
+		animation.add('Rubber', [94, 95],0, false, isPlayer);
+		animation.add('SCPSlizka',[96, 97],0,false,isPlayer);
+		animation.add('GOC',[98, 99],0,false,isPlayer);
+		animation.add('bluskys',[100, 101],0,false,isPlayer);
+		animation.add('ash',[102, 103],0,false,isPlayer);
+		animation.add('jghost',[104, 105],0,false,isPlayer);
+		animation.add('minishoey', [106, 107],0, false, isPlayer);
+		animation.add('momi', [108, 109],0, false, isPlayer);
+		animation.add('nekomomi', [108, 109],0, false, isPlayer);
+
 		animation.play(char);
 
 		switch(char)
