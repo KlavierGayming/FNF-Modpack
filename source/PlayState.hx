@@ -5879,6 +5879,7 @@ class PlayState extends MusicBeatState
 		super.stepHit();
 		if (SONG.song.toLowerCase() == 'split')
 			areYouReady(curStep);
+		
 		if (FlxG.sound.music.time > Conductor.songPosition + 20 || FlxG.sound.music.time < Conductor.songPosition - 20)
 		{
 			resyncVocals();
