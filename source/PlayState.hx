@@ -4977,18 +4977,21 @@ class PlayState extends MusicBeatState
 						maxSONG = Song.loadFromJson('max', storyPlaylist[0]);
 					}
 
-					if (daSong == 'nerves')
-						FlxG.switchState(new VideoState('videos/garcello_dies.webm', new PlayState(), true));
-					else if (daSong == 'jump-in')
-						FlxG.switchState(new VideoState('videos/Cutscene2Subtitles.webm', new PlayState()));
-					else if (daSong == 'swing')
-						FlxG.switchState(new VideoState('videos/Cutscene3Subtitles.webm', new PlayState()));
-					else if (daSong == 'ugh')
-						FlxG.switchState(new VideoState('videos/gunsCutscene.webm', new PlayState(), true));
-					else if (daSong == 'guns')
-						FlxG.switchState(new VideoState('videos/stressCutscene.webm', new PlayState(), true));
-					else
-						LoadingState.loadAndSwitchState(new PlayState());
+					switch (daSong)
+					{
+						case 'nerves':
+							FlxG.switchState(new VideoState('videos/garcello_dies.webm', new PlayState(), true));
+						case 'jump-in':
+							FlxG.switchState(new VideoState('videos/Cutscene2Subtitles.webm', new PlayState()));
+						case 'swing':
+							FlxG.switchState(new VideoState('videos/Cutscene3Subtitles.webm', new PlayState()));
+						case 'ugh':
+							FlxG.switchState(new VideoState('videos/gunsCutscene.webm', new PlayState(), true));
+						case 'guns':
+							FlxG.switchState(new VideoState('videos/stressCutscene.webm', new PlayState(), true));
+						else
+							LoadingState.loadAndSwitchState(new PlayState());
+					}
 				}
 			}
 			else
