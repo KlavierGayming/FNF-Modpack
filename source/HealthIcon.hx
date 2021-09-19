@@ -100,6 +100,8 @@ class HealthIcon extends FlxSprite
 		animation.add('austin', [118, 119], 0, false, isPlayer);
 		animation.add('arch', [120, 121], 0, false, isPlayer);
 		animation.add('bb', [122, 123], 0, false, isPlayer);
+		animation.add('bf-mii', [0,1], 0, false, isPlayer);
+
 
 
 		animation.play(char);
