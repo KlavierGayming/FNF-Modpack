@@ -40,7 +40,7 @@ class HealthIcon extends FlxSprite
 		animation.add('monster', [19, 20], 0, false, isPlayer);
 		animation.add('monster-christmas', [19, 20], 0, false, isPlayer);
 		animation.add('kapi', [24, 25], 0, false, isPlayer);
-		animation.add('kapi-mad', [26], 0, false, isPlayer);
+		animation.add('kapi-mad', [26, 27], 0, false, isPlayer);
 		animation.add('garcello', [28, 29], 0, false, isPlayer);
 		animation.add('garcellotired', [30, 31], 0, false, isPlayer);
 		animation.add('garcellodead', [32, 33], 0, false, isPlayer);
@@ -92,6 +92,15 @@ class HealthIcon extends FlxSprite
 		animation.add('minishoey', [106, 107],0, false, isPlayer);
 		animation.add('momi', [108, 109],0, false, isPlayer);
 		animation.add('nekomomi', [108, 109],0, false, isPlayer);
+		animation.add('zardyMyBeloved', [110, 111], 0, false, isPlayer);
+		animation.add('zardyButDARK', [110, 111], 0, false, isPlayer);
+		animation.add('cableCrowPog', [112, 113], 0, false, isPlayer);
+		animation.add('eteled1', [114, 115], 0, false, isPlayer);
+		animation.add('eteled2', [116, 117], 0, false, isPlayer);
+		animation.add('austin', [118, 119], 0, false, isPlayer);
+		animation.add('arch', [120, 121], 0, false, isPlayer);
+		animation.add('bb', [122, 123], 0, false, isPlayer);
+
 
 		animation.play(char);
 

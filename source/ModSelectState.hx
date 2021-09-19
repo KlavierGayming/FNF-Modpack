@@ -61,6 +61,7 @@ class ModSelectState extends MusicBeatState
 			grpControls.add(controlLabel);
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
 		}
+		changeSelection(0);
 
 
 

@@ -17,7 +17,7 @@ class Character extends FlxSprite
 
 	public var holdTimer:Float = 0;
 
-	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
+	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false, glitched:Bool = false)
 	{
 		super(x, y);
 
@@ -30,6 +30,186 @@ class Character extends FlxSprite
 
 		switch (curCharacter)
 		{
+			case 'bf-mii':
+				var tex = Paths.getSparrowAtlas('characters/BOYFRIENDMII','shared');
+				frames = tex;
+
+				trace(tex.frames.length);
+
+				animation.addByPrefix('idle', 'BF idle dance', 24, false);
+				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
+				animation.addByPrefix('singDOWN', 'BF NOTE DOWN0', 24, false);
+				animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
+				animation.addByPrefix('hey', 'BF HEY', 24, false);
+
+				animation.addByPrefix('firstDeath', "BF dies", 24, false);
+				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, false);
+				animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
+
+				animation.addByPrefix('scared', 'BF idle shaking', 24);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+			case 'eteled1':
+				tex = Paths.getSparrowAtlas('characters/eteled1_assets','shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'eteled idle dance', 24);
+				animation.addByPrefix('singUP', 'eteled Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'eteled Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'eteled Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'eteled Sing Note LEFT', 24);
+				animation.addByPrefix('intro', 'eteled INTRO', 24);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+			case 'eteled2':
+
+				tex = Paths.getSparrowAtlas('characters/eteled2_assets','shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'eteled idle dance', 24);
+				animation.addByPrefix('singUP', 'eteled Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'eteled Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'eteled Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'eteled Sing Note LEFT', 24);
+				animation.addByPrefix('scream', 'eteled SCREAM', 24);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+			case 'eteled3':
+
+				tex = Paths.getSparrowAtlas('characters/eteled3_assets','shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'eteled idle dance', 24);
+				animation.addByPrefix('singUP', 'eteled Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'eteled Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'eteled Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'eteled Sing Note LEFT', 24);
+				animation.addByPrefix('scream', 'eteled SCREAM', 24);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+			case 'austin':
+				if (glitched)
+					tex = Paths.getSparrowAtlas('characters/austinglitch_assets','shared');
+				else
+					tex = Paths.getSparrowAtlas('characters/austin_assets','shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'austin idle dance', 24);
+
+				animation.addByPrefix('singUP', 'austin Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'austin Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'austin Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'austin Sing Note LEFT', 24);
+
+				animation.addByPrefix('singUPmiss', 'austin miss up', 24);
+				animation.addByPrefix('singRIGHTmiss', 'austin miss right', 24);
+				animation.addByPrefix('singDOWNmiss', 'austin miss down', 24);
+				animation.addByPrefix('singLEFTmiss', 'austin miss left', 24);
+
+				animation.addByPrefix('firstDeath', "austin fucking dies", 24, false);
+				animation.addByPrefix('deathLoop', "austin fucking dies loop", 24, false);
+				animation.addByPrefix('deathConfirm', "austin fucking dies confirm", 24, false);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+			case 'gf-mii':
+				// GIRLFRIEND CODE
+				tex = Paths.getSparrowAtlas('characters/GF_MII_assets','shared');
+				frames = tex;
+				animation.addByIndices('sad', 'gf sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
+				animation.addByIndices('danceLeft', 'GF Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				animation.addByIndices('danceRight', 'GF Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('danceRight');
+
+			case 'bf-zar':
+				var tex = Paths.getSparrowAtlas('mods/zard/five-minute-song/ZardyWeek2_BoyFriend', 'shared');
+				frames = tex;
+
+				trace(tex.frames.length);
+
+				animation.addByPrefix('idle', 'BF idle dance instance', 24, false);
+				animation.addByPrefix('singUP', 'BF NOTE UP instance', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE LEFT instance', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT instance', 24, false);
+				animation.addByPrefix('singDOWN', 'BF NOTE DOWN instance', 24, false);
+				animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS instance', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS instance', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS instance', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS instance', 24, false);
+				animation.addByPrefix('fall', 'bf pre attack instance', 24, false);
+				animation.addByPrefix('axe', 'Holding Axe instance', 24, false);
+				animation.addByIndices('dead', 'BF hit instance 1',[19,20,21,22,23,24],"", 24, false);
+				animation.addByIndices('heldByVine', 'BF hit instance 1',[4,5,6,7,8,9,10,12,13,14,15,16,17,18],"", 24, true);
+				animation.addByIndices('deadInVine', 'BF hit instance 1',[18,19,20,21,22,23,24],"", 24, false);
+				animation.addByPrefix('dodge', 'boyfriend dodge instance 1', 24, false);
+				animation.addByPrefix('hey', 'BF HEY', 24, false);
+
+				animation.addByPrefix('firstDeath', "BF dies instance", 24, false);
+				animation.addByPrefix('deathLoop', "BF Dead Loop instance", 24, false);
+				animation.addByPrefix('deathConfirm', "BF Dead confirm instance", 24, false);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+			case 'zardyMyBeloved':
+				tex = Paths.getSparrowAtlas('mods/zard/Zardy', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'Idle', 14);
+				animation.addByPrefix('singUP', 'Sing Up', 24);
+				animation.addByPrefix('singRIGHT', 'Sing Right', 24);
+				animation.addByPrefix('singDOWN', 'Sing Down', 24);
+				animation.addByPrefix('singLEFT', 'Sing Left', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -80, -10);
+				addOffset("singRIGHT", -65, 5);
+				addOffset("singLEFT", 130, 5);
+				addOffset("singDOWN", -2, -26);
+
+				playAnim('idle');
+			case 'zardyButDARK':
+				tex = Paths.getSparrowAtlas('mods/zard/five-minute-song/ZardyDark', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'Idle', 14);
+				animation.addByPrefix('singUP', 'Sing Up', 24);
+				animation.addByPrefix('singRIGHT', 'Sing Right', 24);
+				animation.addByPrefix('singDOWN', 'Sing Down', 24);
+				animation.addByPrefix('singLEFT', 'Sing Left', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -80, -10);
+				addOffset("singRIGHT", -65, 5);
+				addOffset("singLEFT", 130, 5);
+				addOffset("singDOWN", -2, -26);
+
+				playAnim('idle');
+			case 'cableCrowPog':
+				tex = Paths.getSparrowAtlas('mods/zard/five-minute-song/Cablecrow', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'Idle', 14);
+				animation.addByPrefix('singUP', 'Sing Up', 24);
+				animation.addByPrefix('singRIGHT', 'Sing Right', 24);
+				animation.addByPrefix('singDOWN', 'Sing Down', 24);
+				animation.addByPrefix('singLEFT', 'Sing Left', 24);
+
+				loadOffsetFile(curCharacter);
 			case 'GOC':
 				// goc moment
 				tex = Paths.getSparrowAtlas('characters/goc_assets', 'shared');
@@ -463,6 +643,26 @@ class Character extends FlxSprite
 							addOffset("singDOWN", 46, -87);
 			
 							playAnim('idle');
+						case 'bb':
+							frames=Paths.getSparrowAtlas('mods/arch/bb','shared');
+							animation.addByPrefix('idle', 'bb idle');
+							animation.addByPrefix('singLEFT', 'bb left');
+							animation.addByPrefix('singRIGHT', 'bb right');
+							animation.addByPrefix('singUP', 'bb up');
+							animation.addByPrefix('singDOWN', 'bb down');
+							flipX = true;
+						case 'arch':
+							frames=Paths.getSparrowAtlas('mods/arch/arch','shared');
+							animation.addByIndices('idle', 'arch', [0], "");
+							animation.addByIndices('singLEFT', 'arch', [1], "");
+							animation.addByIndices('singRIGHT', 'arch', [2], "");
+							animation.addByIndices('singUP', 'arch', [3], "");
+							animation.addByIndices('singDOWN', 'arch', [4], "");
+						case 'gf-demona':
+							frames=Paths.getSparrowAtlas('mods/arch/demona','shared');
+							animation.addByIndices('danceLeft', 'kaya', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "");
+							animation.addByIndices('danceRight', 'kaya', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "");
+							playAnim('danceRight');
 						case 'duet':
 							tex = Paths.getSparrowAtlas('characters/duet_assets','shared');
 							frames = tex;
@@ -1988,7 +2188,7 @@ class Character extends FlxSprite
 			flipX = !flipX;
 
 			// Doesn't flip for BF, since his are already in the right place???
-			if (!curCharacter.startsWith('bf'))
+			if (!curCharacter.startsWith('bf') && curCharacter != 'bb')
 			{
 				// var animArray
 				var oldRight = animation.getByName('singRIGHT').frames;
@@ -2003,6 +2203,16 @@ class Character extends FlxSprite
 					animation.getByName('singLEFTmiss').frames = oldMiss;
 				}
 			}
+		}
+	}
+
+	function loadOffsetFile(character:String) {
+		var offshits:Array<String> = CoolUtil.coolTextFile(Paths.offset(character + 'Offsets'));
+
+		for (i in 0...offshits.length)
+		{
+			var data = offshits[i].split(' ');
+			addOffset(data[0], Std.parseFloat(data[1]), Std.parseFloat(data[2]));
 		}
 	}
 
@@ -2046,10 +2256,9 @@ class Character extends FlxSprite
 	{
 		if (!debugMode)
 		{
-			switch (curCharacter)
+			if (curCharacter.startsWith('gf'))
 			{
-				case 'gf':
-					if (!animation.curAnim.name.startsWith('hair'))
+				if (!animation.curAnim.name.startsWith('hair'))
 					{
 						danced = !danced;
 
@@ -2058,66 +2267,11 @@ class Character extends FlxSprite
 						else
 							playAnim('danceLeft');
 					}
-					case 'gf-bob':
-						if (!animation.curAnim.name.startsWith('hair'))
-						{
-							danced = !danced;
-	
-							if (danced)
-								playAnim('danceRight');
-							else
-								playAnim('danceLeft');
-						}
-						case 'gf-whitty':
-							if (!animation.curAnim.name.startsWith('hair'))
-							{
-								danced = !danced;
-		
-								if (danced)
-									playAnim('danceRight');
-								else
-									playAnim('danceLeft');
-							}
-						case 'gf-tied':
-							if (!animation.curAnim.name.startsWith('hair'))
-							{
-								danced = !danced;
-		
-								if (danced)
-									playAnim('danceRight');
-								else
-									playAnim('danceLeft');
-							}
-							case 'gf-tied-edgy':
-								if (!animation.curAnim.name.startsWith('hair'))
-								{
-									danced = !danced;
-			
-									if (danced)
-										playAnim('danceRight');
-									else
-										playAnim('danceLeft');
-								}
-								case 'gf-sketch':
-									if (!animation.curAnim.name.startsWith('hair'))
-									{
-										danced = !danced;
-				
-										if (danced)
-											playAnim('danceRight');
-										else
-											playAnim('danceLeft');
-									}
-						case 'gf-bosip':
-							if (!animation.curAnim.name.startsWith('hair'))
-							{
-								danced = !danced;
-		
-								if (danced)
-									playAnim('danceRight');
-								else
-									playAnim('danceLeft');
-							}
+			}
+			else
+			{
+			switch (curCharacter)
+			{
 					case 'ggf':
 						if (!animation.curAnim.name.startsWith('hair'))
 						{
@@ -2128,49 +2282,6 @@ class Character extends FlxSprite
 							else
 								playAnim('danceLeft');
 						}
-					case 'gf-drip':
-						if (!animation.curAnim.name.startsWith('hair'))
-						{
-							danced = !danced;
-	
-							if (danced)
-								playAnim('danceRight');
-							else
-								playAnim('danceLeft');
-						}
-
-				case 'gf-christmas':
-					if (!animation.curAnim.name.startsWith('hair'))
-					{
-						danced = !danced;
-
-						if (danced)
-							playAnim('danceRight');
-						else
-							playAnim('danceLeft');
-					}
-
-				case 'gf-car':
-					if (!animation.curAnim.name.startsWith('hair'))
-					{
-						danced = !danced;
-
-						if (danced)
-							playAnim('danceRight');
-						else
-							playAnim('danceLeft');
-					}
-				case 'gf-pixel':
-					if (!animation.curAnim.name.startsWith('hair'))
-					{
-						danced = !danced;
-
-						if (danced)
-							playAnim('danceRight');
-						else
-							playAnim('danceLeft');
-					}
-
 				case 'spooky':
 					danced = !danced;
 
@@ -2185,20 +2296,21 @@ class Character extends FlxSprite
 							playAnim('danceRight');
 						else
 							playAnim('danceLeft');
-						case 'momi':
-							danced = !danced;
-							if (danced)
-								playAnim('danceRight');
-							else
-								playAnim('danceLeft');
-						case 'nekomomi':
-							danced = !danced;
-							if (danced)
-								playAnim('danceRight');
-							else
-								playAnim('danceLeft');
-				default:
-					playAnim('idle');
+					case 'momi':
+						danced = !danced;
+						if (danced)
+							playAnim('danceRight');
+						else
+							playAnim('danceLeft');
+					case 'nekomomi':
+						danced = !danced;
+						if (danced)
+							playAnim('danceRight');
+						else
+							playAnim('danceLeft');
+					default:
+						playAnim('idle');
+				}
 			}
 		}
 	}

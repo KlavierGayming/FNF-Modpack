@@ -69,6 +69,11 @@ class Paths
 	{
 		return getPath('data/$key.txt', TEXT, library);
 	}
+	
+	inline static public function offset(key:String, ?library:String)
+	{
+		return getPath('images/characters/$key.txt', TEXT, library);
+	}
 
 	inline static public function xml(key:String, ?library:String)
 	{
