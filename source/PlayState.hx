@@ -243,11 +243,19 @@ class PlayState extends MusicBeatState
 	var upperBoppers:FlxSprite;
 	var bottomBoppers:FlxSprite;
 	var santa:FlxSprite;
+
+
 	var daBob:FlxSprite;
+
+
 	var mordecai:FlxSprite;
 	var mini:FlxSprite;
+
+
 	var uBg:FlxSprite;
 	var wBg2:FlxSprite;
+
+
 	var chaossus:FlxSprite; //-----------------------------------------------------------------------------------------------------------------
 	var chaossussy:FlxSprite;
 	var BgSite:FlxSprite;
@@ -500,9 +508,8 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.68;
 					curStage = 'mii-channel';
-					var bg:FlxSprite = new FlxSprite(-550, -230).loadGraphic(Paths.image('mods/eteled/stageback'));
+					var bg:FlxSprite = new FlxSprite(-400, -130).loadGraphic(Paths.image('mods/eteled/stageback'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(1, 1);
 					bg.active = false;
 					add(bg);
 
@@ -513,16 +520,14 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.68;
 					curStage = 'mii-channel-glitch';
-					var bg:FlxSprite = new FlxSprite(-550, -230).loadGraphic(Paths.image('mods/eteled/corruptback'));
+					var bg:FlxSprite = new FlxSprite(-400, -130).loadGraphic(Paths.image('mods/eteled/corruptback'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(1, 1);
 					bg.active = false;
 					add(bg);
 					grpHallway = new FlxTypedGroup<FlxSprite>();
 					add(grpHallway);
-					var bg:FlxSprite = new FlxSprite(-360, -210).loadGraphic(Paths.image('mods/eteled/glitchhallway2ndsong'));
+					var bg:FlxSprite = new FlxSprite(-260, -110).loadGraphic(Paths.image('mods/eteled/glitchhallway2ndsong'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(1, 1);
 					bg.active = false;
 					bg.y += FlxG.height * 2;
 					grpHallway.add(bg);
@@ -535,7 +540,6 @@ class PlayState extends MusicBeatState
 					curStage = 'mii-channel-dark';
 					var bg:FlxSprite = new FlxSprite(-550, -230).loadGraphic(Paths.image('mods/eteled/blackback'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(1, 1);
 					bg.active = false;
 					add(bg);
 				}
@@ -545,7 +549,6 @@ class PlayState extends MusicBeatState
 					curStage = 'hallway';
 					var bg:FlxSprite = new FlxSprite(-360, -210).loadGraphic(Paths.image('mods/eteled/glitchhallway'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(1, 1);
 					bg.active = false;
 					add(bg);
 				}
@@ -2777,6 +2780,10 @@ class PlayState extends MusicBeatState
 					boyfriend.y += 130;
 					boyfriend.x += 40;
 					gf.alpha = 0;
+				case 'mii-channel-glitch' | 'mii-channel':
+					boyfriend.x -= 250;
+					gf.x -= 250;
+					dad.x -= 250;
 		}
 
 		add(gf);
@@ -2844,29 +2851,26 @@ class PlayState extends MusicBeatState
 			add(dad2);
 		switch (curStage) {
 			case 'mii-channel':
-				var stageCurtains:FlxSprite = new FlxSprite(-449, -299);//.loadGraphic(Paths.image('stagecurtains'));
+				var stageCurtains:FlxSprite = new FlxSprite(-550, -199);//.loadGraphic(Paths.image('stagecurtains'));
 				stageCurtains.frames = Paths.getSparrowAtlas('mods/eteled/miibuttons');
 				stageCurtains.animation.addByPrefix('idle', 'stagecurtains', 24);
 				stageCurtains.animation.play('idle');
 				stageCurtains.updateHitbox();
 						stageCurtains.antialiasing = true;
-				stageCurtains.scrollFactor.set(1.17, 1.17);
 
 				add(stageCurtains);
 			case 'mii-channel-glitch':
 				channelOverlay = new FlxSprite(-550, -230).loadGraphic(Paths.image('mods/eteled/overlayphase2'));
-					channelOverlay.antialiasing = true;
-				channelOverlay.scrollFactor.set(1, 1);
+				channelOverlay.antialiasing = true;
 				channelOverlay.active = false;
 				add(channelOverlay);
 				
-				miiButtons = new FlxSprite(-449, -299);//.loadGraphic(Paths.image('stagecurtains'));
+				miiButtons = new FlxSprite(-550, -199);//.loadGraphic(Paths.image('stagecurtains'));
 				miiButtons.frames = Paths.getSparrowAtlas('mods/eteled/Glitchmiibuttons');
 				miiButtons.animation.addByPrefix('idle', 'stagecurtains', 24);
 				miiButtons.animation.play('idle');
 				miiButtons.updateHitbox();
-					miiButtons.antialiasing = true;
-				miiButtons.scrollFactor.set(1.17, 1.17);
+				miiButtons.antialiasing = true;
 
 				add(miiButtons);
 		}
@@ -4171,6 +4175,7 @@ class PlayState extends MusicBeatState
 		miiButtons.visible = true;
 		//dad.setPosition(127, 303);
 		inGlitchedHallway = false;
+		FlxG.camera.zoom = defaultCamZoom;
 	}
 	function switchEdgy(edgy:Bool)
 	{
@@ -6333,21 +6338,24 @@ override function stepHit()
 	{
 		resyncVocals();
 	}
-	if (SONG.song.toLowerCase() == 'diagrahephobia')
+	if (SONG.song.toLowerCase() == 'diagraphephobia')
 	{
 		switch (curStep) {
-			case 463:
+			case 448:
 				switchToHallway();
 			case 576:
 				switchOutHallway();
-			case 731:
+			case 696 | 272 | 286 | 316 | 376 | 828:
+				var thisOtherObject:FlxObject = new FlxObject(0, 0, 1, 1);
+				thisOtherObject.setPosition(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
 				screamMode = true;
-				FlxG.camera.follow(camFollow, LOCKON, 0.2 * (30 / (cast(Lib.current.getChildAt(0), Main)).getFPS()));
+				FlxG.camera.follow(thisOtherObject, LOCKON, 0.2 * (30 / (cast(Lib.current.getChildAt(0), Main)).getFPS()));
 				defaultCamZoom += 0.4;
-			case 739:
+			case 704 | 275 | 288 | 320 | 383 | 832:
 				screamMode = false;
 				FlxG.camera.follow(camFollow, LOCKON, 0.04 * (30 / (cast(Lib.current.getChildAt(0), Main)).getFPS()));
 				defaultCamZoom -= 0.4;
+				FlxG.camera.zoom = defaultCamZoom;
 		}
 	}
 	if (lastStep != curStep &&  curStage == "zardyBruh")
