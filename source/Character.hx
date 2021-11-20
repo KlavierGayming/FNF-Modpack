@@ -16,6 +16,7 @@ class Character extends FlxSprite
 	public var curCharacter:String = 'bf';
 
 	public var holdTimer:Float = 0;
+	var iconColor:String = '';
 
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false, glitched:Bool = false)
 	{
@@ -30,6 +31,248 @@ class Character extends FlxSprite
 
 		switch (curCharacter)
 		{
+			case 'steve-armor':
+				iconColor = 'FF224367';
+				frames = Paths.getSparrowAtlas('characters/SteveArmor');
+				animation.addByPrefix('idle', 'Steve Armor Idle', 24, false);
+				animation.addByPrefix('singUP', 'Steve Armor UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'Steve Armor LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'Steve Armor RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'Steve Armor DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+
+			case 'tuxsteve':
+				iconColor = 'FF264B73';
+				frames = Paths.getSparrowAtlas('characters/tuxsteve');
+				animation.addByPrefix('idle', 'tux steve Idle', 24, false);
+				animation.addByPrefix('singUP', 'tux steve UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'tux steve LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'tux steve RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'tux steve DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+				
+			case 'tuxsteveuoh':
+				iconColor = 'FF2B5480';
+				frames = Paths.getSparrowAtlas('characters/tuxsteveuoh');
+				animation.addByPrefix('idle', 'tux steve Idle', 24, false);
+				animation.addByPrefix('singUP', 'tux steve UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'tux steve LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'tux steve RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'tux steve DOWN NOTE', 24, false);
+	
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+	
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+	
+				antialiasing = false;
+
+			case 'stevefnm':
+				iconColor = 'FF2B5480';
+				frames = Paths.getSparrowAtlas('characters/stevefnm');
+				animation.addByPrefix('idle', 'steve Idle', 24, false);
+				animation.addByPrefix('singUP', 'steve UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'steve LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'steve RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'steve DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+
+			case 'stevematt':
+				iconColor = 'FF2B5480';
+				frames = Paths.getSparrowAtlas('characters/stevematt');
+				animation.addByPrefix('idle', 'steve Idle', 24, false);
+				animation.addByPrefix('singUP', 'steve UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'steve LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'steve RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'steve DOWN NOTE', 24, false);
+	
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+	
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+	
+				antialiasing = false;
+
+			case 'stevelucky':
+				iconColor = 'FF2B5480';
+				frames = Paths.getSparrowAtlas('characters/stevelucky');
+				animation.addByPrefix('idle', 'steve Idle', 24, false);
+				animation.addByPrefix('singUP', 'steve UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'steve LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'steve RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'steve DOWN NOTE', 24, false);
+	
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+	
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+	
+				antialiasing = false;
+
+			case 'alex':
+				iconColor = 'FF9AFF9A';
+				frames = Paths.getSparrowAtlas('characters/alex');
+				animation.addByPrefix('idle', 'alex Idle', 24, false);
+				animation.addByPrefix('singUP', 'alex UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'alex LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'alex RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'alex DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+
+			case 'alexchill':
+				iconColor = 'FF9AFF9A';
+				frames = Paths.getSparrowAtlas('characters/alexchill');
+				animation.addByPrefix('idle', 'alex Idle', 24, false);
+				animation.addByPrefix('singUP', 'alex UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'alex LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'alex RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'alex DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+
+			case 'alexsunday':
+				iconColor = 'FF9AFF9A';
+				frames = Paths.getSparrowAtlas('characters/alexsunday');
+				animation.addByPrefix('idle', 'alexsunday idle', 24, false);
+				animation.addByPrefix('singUP', 'alexsunday up normal', 24, false);
+				animation.addByPrefix('singLEFT', 'alexsunday left normal', 24, false);
+				animation.addByPrefix('singRIGHT', 'alexsunday right normal', 24, false);
+				animation.addByPrefix('singDOWN', 'alexsunday down normal', 24, false);
+
+				animation.addByPrefix('singUP-alt', 'alexsunday upguitar', 24, false);
+
+				animation.addByPrefix('singDOWN-alt', 'alexsunday downguitar', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'alexsunday leftguitar', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'alexsunday rightguitar', 24, false);
+
+				addOffset('idle', -250, -260);
+				addOffset("singUP", -260, -260);
+				addOffset("singRIGHT", -252, -260);
+				addOffset("singLEFT", -250, -260);
+				addOffset("singDOWN", -248, -267);
+				addOffset("singUP-alt", -262, -260);
+				addOffset("singRIGHT-alt", -249, -261);
+				addOffset("singLEFT-alt", -250, -265);
+				addOffset("singDOWN-alt", -250, -257);
+
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+
+
+			case 'alexpickaxe':
+				iconColor = 'FF9AFF9A';
+				frames = Paths.getSparrowAtlas('characters/alexpickaxe');
+				animation.addByPrefix('idle', 'alex Idle', 24, false);
+				animation.addByPrefix('singUP', 'alex UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'alex LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'alex RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'alex DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
+
+			case 'alexpickaxemad':
+				iconColor = 'FF9AFF9A';
+				frames = Paths.getSparrowAtlas('characters/alexpickaxemad');
+				animation.addByPrefix('idle', 'alex Idle', 24, false);
+				animation.addByPrefix('singUP', 'alex UP NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'alex LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'alex RIGHT NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'alex DOWN NOTE', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 5, 37);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 40);
+				addOffset("singDOWN", 14);
+				playAnim('idle');
+
+				setGraphicSize(Std.int(width * 6));
+				updateHitbox();
+
+				antialiasing = false;
 			case 'bf-mii':
 				var tex = Paths.getSparrowAtlas('characters/BOYFRIENDMII','shared');
 				frames = tex;

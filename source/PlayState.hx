@@ -56,6 +56,7 @@ import openfl.utils.AssetType;
 import ui.Mobilecontrols;
 
 using StringTools;
+import flixel.addons.effects.chainable.*;
 
 #if windows
 import Discord.DiscordClient;
@@ -504,6 +505,134 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.stage)
 		{
+			case 'steev':
+				{
+						curStage = 'steev';
+	
+						//defaultCamZoom = 0.9;
+	
+						var bgSky = new FlxSprite().loadGraphic(Paths.image('mods/steve/weeb/weebSky'));
+						bgSky.scrollFactor.set(0.1, 0.1);
+						add(bgSky);
+	
+						var repositionShit = -200;
+	
+						var bgSchool:FlxSprite = new FlxSprite(repositionShit, 0).loadGraphic(Paths.image('mods/steve/weeb/weebSchool'));
+						bgSchool.scrollFactor.set(0.6, 0.90);
+						add(bgSchool);
+	
+						var bgStreet:FlxSprite = new FlxSprite(repositionShit).loadGraphic(Paths.image('mods/steve/weeb/weebStreet'));
+						bgStreet.scrollFactor.set(0.95, 0.95);
+						add(bgStreet);
+	
+						var fgTrees:FlxSprite = new FlxSprite(repositionShit + 170, 130).loadGraphic(Paths.image('mods/steve/weeb/weebTreesBack'));
+						fgTrees.scrollFactor.set(0.9, 0.9);
+						add(fgTrees);
+	
+						var bgTrees:FlxSprite = new FlxSprite(repositionShit - 380, -800);
+						var treetex = Paths.getPackerAtlas('mods/steve/weeb/weebTrees');
+						bgTrees.frames = treetex;
+						bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
+						bgTrees.animation.play('treeLoop');
+						bgTrees.scrollFactor.set(0.85, 0.85);
+						add(bgTrees);
+	
+						var treeLeaves:FlxSprite = new FlxSprite(repositionShit, -40);
+						treeLeaves.frames = Paths.getSparrowAtlas('mods/steve/weeb/petals');
+						treeLeaves.animation.addByPrefix('leaves', 'PETALS ALL', 24, true);
+						treeLeaves.animation.play('leaves');
+						treeLeaves.scrollFactor.set(0.85, 0.85);
+						add(treeLeaves);
+	
+						var widShit = Std.int(bgSky.width * 6);
+	
+						bgSky.setGraphicSize(widShit);
+						bgSchool.setGraphicSize(widShit);
+						bgStreet.setGraphicSize(widShit);
+						bgTrees.setGraphicSize(Std.int(widShit * 1.4));
+						fgTrees.setGraphicSize(Std.int(widShit * 0.8));
+						treeLeaves.setGraphicSize(widShit);
+	
+						fgTrees.updateHitbox();
+						bgSky.updateHitbox();
+						bgSchool.updateHitbox();
+						bgStreet.updateHitbox();
+						bgTrees.updateHitbox();
+						treeLeaves.updateHitbox();
+	
+						bgGirls = new BackgroundGirls(-100, 190, true);
+						bgGirls.scrollFactor.set(0.9, 0.9);
+	
+						if (SONG.song.toLowerCase() == 'craft away')
+							{
+								if(FlxG.save.data.distractions){
+									bgGirls.getScared();
+								}
+							}
+	
+						bgGirls.setGraphicSize(Std.int(bgGirls.width * daPixelZoom));
+						bgGirls.updateHitbox();
+						if(FlxG.save.data.distractions){
+							add(bgGirls);
+						}
+				}
+				case 'cave':
+				{
+						curStage = 'cave';
+	
+						defaultCamZoom = 0.96;
+	
+						var bgSky = new FlxSprite().loadGraphic(Paths.image('mods/steve/cave/caveBG'));
+						bgSky.scrollFactor.set(0.1, 0.1);
+						bgSky.y -= 150;
+						bgSky.x -= 200;
+						add(bgSky);
+	
+						var repositionShit = -200;
+	
+						var bgSchool:FlxSprite = new FlxSprite(repositionShit, 0).loadGraphic(Paths.image('mods/steve/cave/weebSchool'));
+						bgSchool.scrollFactor.set(0.6, 0.90);
+						add(bgSchool);
+	
+						var bgStreet:FlxSprite = new FlxSprite(repositionShit).loadGraphic(Paths.image('mods/steve/cave/floor'));
+						bgStreet.scrollFactor.set(0.95, 0.95);
+						add(bgStreet);
+	
+						var fgTrees:FlxSprite = new FlxSprite(repositionShit + 170, 130).loadGraphic(Paths.image('mods/steve/weeb/weebTreesBack'));
+						fgTrees.scrollFactor.set(0.9, 0.9);
+						add(fgTrees);
+	
+						var bgTrees:FlxSprite = new FlxSprite(repositionShit - 380, -800);
+						var treetex = Paths.getPackerAtlas('mods/steve/weeb/weebTrees');
+						bgTrees.frames = treetex;
+						bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
+						bgTrees.animation.play('treeLoop');
+						bgTrees.scrollFactor.set(0.85, 0.85);
+						add(bgTrees);
+	
+						var treeLeaves:FlxSprite = new FlxSprite(repositionShit, -40);
+						treeLeaves.frames = Paths.getSparrowAtlas('weeb/petals');
+						treeLeaves.animation.addByPrefix('leaves', 'PETALS ALL', 24, true);
+						treeLeaves.animation.play('leaves');
+						treeLeaves.scrollFactor.set(0.85, 0.85);
+						add(treeLeaves);
+	
+						var widShit = Std.int(bgSky.width * 6);
+	
+						bgSky.setGraphicSize(widShit);
+						bgSchool.setGraphicSize(widShit);
+						bgStreet.setGraphicSize(widShit);
+						bgTrees.setGraphicSize(Std.int(widShit * 1.4));
+						fgTrees.setGraphicSize(Std.int(widShit * 0.8));
+						treeLeaves.setGraphicSize(widShit);
+	
+						fgTrees.updateHitbox();
+						bgSky.updateHitbox();
+						bgSchool.updateHitbox();
+						bgStreet.updateHitbox();
+						bgTrees.updateHitbox();
+						treeLeaves.updateHitbox();
+				}
 			case 'mii-channel':
 				{
 					defaultCamZoom = 0.68;
@@ -2455,6 +2584,12 @@ class PlayState extends MusicBeatState
 				gf.y -= 40;
 				gf.x -= 30;
 		}
+		if (dad.curCharacter.startsWith('steve') || dad.curCharacter.endsWith('steve') || dad.curCharacter.startsWith('alex'))
+		{
+			dad.x += 150;
+			dad.y += 360;
+			camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+		}
 		switch (SONG.player2)
 		{
 			case 'austin':
@@ -2615,6 +2750,10 @@ class PlayState extends MusicBeatState
 		// REPOSITIONING PER STAGE
 		switch (curStage)
 		{
+			case 'cave':
+				boyfriend.x += 100;
+				boyfriend.y += 200;
+				gf.visible = false;
 			case 'arch':
 				boyfriend.x = 798.8;
 				boyfriend.y = 40.6;
@@ -2692,7 +2831,7 @@ class PlayState extends MusicBeatState
 			case 'mallEvil':
 				boyfriend.x += 320;
 				dad.y -= 80;
-			case 'school':
+			case 'school' | 'steev':
 				boyfriend.x += 200;
 				boyfriend.y += 220;
 				gf.x += 180;
@@ -3477,6 +3616,12 @@ class PlayState extends MusicBeatState
 			introAssets.set('default', ['ready', "set", "go"]);
 			introAssets.set('school', ['weeb/pixelUI/ready-pixel', 'weeb/pixelUI/set-pixel', 'weeb/pixelUI/date-pixel']);
 			introAssets.set('schoolEvil', ['weeb/pixelUI/ready-pixel', 'weeb/pixelUI/set-pixel', 'weeb/pixelUI/date-pixel']);
+			introAssets.set('cave', [
+				'mods/steve/cave/pixelUI/ready-pixel',
+				'mods/steve/cave/pixelUI/set-pixel',
+				'mods/steve/cave/pixelUI/date-pixel'
+			]);
+			introAssets.set('steev', ['mods/steve/weeb/pixelUI/ready-pixel', 'mods/steve/weeb/pixelUI/set-pixel', 'mods/steve/weeb/pixelUI/date-pixel']);
 
 			var introAlts:Array<String> = introAssets.get('default');
 			var altSuffix:String = "";
@@ -3500,7 +3645,7 @@ class PlayState extends MusicBeatState
 					ready.scrollFactor.set();
 					ready.updateHitbox();
 
-					if (curStage.startsWith('school'))
+					if (curStage.startsWith('school') || curStage == 'steev' || curStage == 'cave')
 						ready.setGraphicSize(Std.int(ready.width * daPixelZoom));
 
 					ready.screenCenter();
@@ -3517,7 +3662,7 @@ class PlayState extends MusicBeatState
 					var set:FlxSprite = new FlxSprite().loadGraphic(Paths.image(introAlts[1]));
 					set.scrollFactor.set();
 
-					if (curStage.startsWith('school'))
+					if (curStage.startsWith('school') || curStage == 'steev' || curStage == 'cave')
 						set.setGraphicSize(Std.int(set.width * daPixelZoom));
 
 					set.screenCenter();
@@ -3534,7 +3679,7 @@ class PlayState extends MusicBeatState
 					var go:FlxSprite = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
 					go.scrollFactor.set();
 
-					if (curStage.startsWith('school'))
+					if (curStage.startsWith('school') || curStage == 'steev' || curStage == 'cave')
 						go.setGraphicSize(Std.int(go.width * daPixelZoom));
 
 					go.updateHitbox();
@@ -3884,8 +4029,8 @@ class PlayState extends MusicBeatState
 
 			switch (SONG.noteStyle)
 			{
-				case 'pixel':
-					babyArrow.loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
+				case 'pixel' | 'alex':
+					babyArrow.loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels', 'week6'), true, 17, 17);
 					babyArrow.animation.add('green', [6]);
 					babyArrow.animation.add('red', [7]);
 					babyArrow.animation.add('blue', [5]);
@@ -4030,10 +4175,11 @@ class PlayState extends MusicBeatState
 				spr.centerOffsets(); // CPU arrows start out slightly off-center
 			});
 
+
 			strumLineNotes.add(babyArrow);
 		}
 	}
-
+;
 	function tweenCamIn():Void
 	{
 		FlxTween.tween(FlxG.camera, {zoom: 1.3}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut});
@@ -4682,6 +4828,11 @@ class PlayState extends MusicBeatState
 							camFollow.y = dad.getMidpoint().y - 430;
 							camFollow.x = dad.getMidpoint().x - 100;
 					}
+					if (dad.curCharacter.startsWith('steve') || dad.curCharacter.endsWith('steve') || dad.curCharacter.startsWith('alex'))
+					{
+						camFollow.y = dad.getMidpoint().y - 430;
+						camFollow.x = dad.getMidpoint().x - 100;
+					}
 
 					if (dad.curCharacter == 'mom')
 						vocals.volume = 1;
@@ -5172,7 +5323,7 @@ class PlayState extends MusicBeatState
 
 				if (daNote.mustPress && !daNote.modifiedByLua)
 				{
-					daNote.visible = playerStrums.members[Math.floor(Math.abs(daNote.noteData))].visible;
+						daNote.visible = playerStrums.members[Math.floor(Math.abs(daNote.noteData))].visible;
 					daNote.x = playerStrums.members[Math.floor(Math.abs(daNote.noteData))].x;
 					if (!daNote.isSustainNote)
 						daNote.angle = playerStrums.members[Math.floor(Math.abs(daNote.noteData))].angle;
@@ -5180,7 +5331,7 @@ class PlayState extends MusicBeatState
 				}
 				else if (!daNote.wasGoodHit && !daNote.modifiedByLua)
 				{
-					daNote.visible = strumLineNotes.members[Math.floor(Math.abs(daNote.noteData))].visible;
+						daNote.visible = strumLineNotes.members[Math.floor(Math.abs(daNote.noteData))].visible;
 					daNote.x = strumLineNotes.members[Math.floor(Math.abs(daNote.noteData))].x;
 					if (!daNote.isSustainNote)
 						daNote.angle = strumLineNotes.members[Math.floor(Math.abs(daNote.noteData))].angle;
@@ -5933,7 +6084,7 @@ private function keyShit():Void // I've invested in emma stocks
 		if (!holdArray[spr.ID])
 			spr.animation.play('static');
 
-		if (spr.animation.curAnim.name == 'confirm' && !curStage.startsWith('school'))
+		if (spr.animation.curAnim.name == 'confirm' && !curStage.startsWith('school') && curStage != 'cave' && curStage != 'steev')
 		{
 			spr.centerOffsets();
 			spr.offset.x -= 13;
@@ -7097,6 +7248,12 @@ var lightningOffset:Int = 8;
 override function beatHit()
 {
 	super.beatHit();
+	if (curBeat == 190 && SONG.song.toLowerCase() == 'iron picks')
+	{
+		remove(dad);
+		dad = new Character(dad.x, dad.y, 'alexpickaxemad');
+		add(dad);
+	}
 	if (dad.curCharacter == 'austin')
 	{
 		if (curBeat % 3 == 0 && FlxG.random.bool(50))

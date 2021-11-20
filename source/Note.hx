@@ -61,7 +61,7 @@ class Note extends FlxSprite
 
 		switch (PlayState.SONG.noteStyle)
 		{
-			case 'pixel':
+			case 'pixel' | 'alex':
 				loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels','week6'), true, 17, 17);
 
 				animation.add('greenScroll', [6]);

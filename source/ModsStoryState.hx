@@ -40,7 +40,12 @@ class ModsStoryState extends MusicBeatState
 		['Inverted-Ascension', 'Echoes', 'Artificial-Lust'],
 		['Evaluation', 'Terminated', 'Recontainment', 'Mayhem'],
 		['Groovy Brass', 'Conscience', 'Yap Squad', 'Intertwined'],
-		['Momi-roll', 'Nazel', 'Neko']
+		['Momi-roll', 'Nazel', 'Neko'],
+		['Foolhardy', 'Bushwhack'],
+		['Dream-of-peace', 'Diagraphephobia', 'Post-Mortal'],
+		['Arch'],
+		['Uoh', 'Craft Away', 'Suit Up'],
+		['Overseen', 'Iron Picks', 'Underrated', 'Tick Tock']
 	];
 	var curDifficulty:Int = 1;
 
@@ -82,7 +87,12 @@ class ModsStoryState extends MusicBeatState
 		"Starlight Mayhem by TheMaskedChris",
 		"Friday Night Site by Azri and Ranger",
 		"Bob And Bosip (ITB Edition) by AmorAltra",
-		"momi by bbpanzu"
+		"momi by bbpanzu",
+		"VS Zardy by SwankyBox",
+		"VS Eteled by TheMaskedChris",
+		"Arch by bbpanzu",
+		"VS Steve",
+		"VS Alex"
 	];
 
 	var txtWeekTitle:FlxText;

@@ -4,6 +4,7 @@ import flixel.FlxSprite;
 /**
  * why does this file exist i hate it >:(
  */
+using StringTools;
 class HealthIcon extends FlxSprite
 {
 	/**
@@ -101,6 +102,11 @@ class HealthIcon extends FlxSprite
 		animation.add('arch', [120, 121], 0, false, isPlayer);
 		animation.add('bb', [122, 123], 0, false, isPlayer);
 		animation.add('bf-mii', [0,1], 0, false, isPlayer);
+		animation.add('bf-zar', [0, 1],  0, false, isPlayer);
+		if (char.startsWith('steve') || char.endsWith('steve'))
+			animation.add(char, [124, 125], 0, false, isPlayer);
+		if (char.startsWith('alex'))
+			animation.add(char, [128, 129], 0, false, isPlayer);
 
 
 
